@@ -1,0 +1,14 @@
+29-01-2019 :
+
+1)Changed Color spectrum to blue green and set the color of non available entries to gray.
+2)Verified the sanity of the data.
+
+06-02-2019 :
+
+1)Added mhzTreeMap.html to project and linked it as new module in index.html (Linking code can be found after portFolioModal4 in index.html).
+2)Added tree map visualization in this new file.
+3)data_spectrum.json data file added in data folder. This file contains the data from worldgridchartdata.csv file in json format for treemap viz.
+
+20-02-2019 :
+
+1)Added indiamap.html.

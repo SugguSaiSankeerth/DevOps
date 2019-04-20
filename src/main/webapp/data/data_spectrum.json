@@ -1,0 +1,812 @@
+[
+    {
+        "key": "1500.0 MHZ",
+        "region": "2015",
+        "subregion": "Germany",
+        "value": 0.136128784
+    },
+    {
+        "key": "1500.0 MHZ",
+        "region": "2015",
+        "subregion": "Italy",
+        "value": 0.252492466
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Bulgaria",
+        "value": 0.380008269
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Costa Rica",
+        "value": 0.000653755
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Greece",
+        "value": 0.255090916
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Italy",
+        "value": 0.343683024
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Portugal",
+        "value": 0.05966086
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Singapore",
+        "value": 0.513216023
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Spain",
+        "value": 0.042974422000000005
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2011",
+        "subregion": "Sweden",
+        "value": 0.228909554
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2012",
+        "subregion": "Hungary",
+        "value": 0.079934978
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Bulgaria",
+        "value": 0.397003017
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Czech Republic",
+        "value": 0.126985887
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Fiji",
+        "value": 0.025788368
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Korea Rep.",
+        "value": 0.705118213
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Poland",
+        "value": 0.35882987299999997
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Singapore",
+        "value": 0.288209543
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Slovak Republic",
+        "value": 0.081618873
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2013",
+        "subregion": "Sri Lanka",
+        "value": 0.332765379
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2014",
+        "subregion": "Hungary",
+        "value": 1.168512157
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2014",
+        "subregion": "Pakistan",
+        "value": 0.184645342
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Albania",
+        "value": 0.39739645100000004
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Croatia",
+        "value": 0.566710526
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Germany",
+        "value": 0.409119846
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Israel",
+        "value": 0.22821557399999998
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Jordan",
+        "value": 5.117231408
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Serbia",
+        "value": 0.286820786
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Thailand",
+        "value": 1.630844283
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2015",
+        "subregion": "Turkey",
+        "value": 0.25209008899999996
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2016",
+        "subregion": "Czech Republic",
+        "value": 0.319403004
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2016",
+        "subregion": "Denmark",
+        "value": 0.206677002
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2016",
+        "subregion": "Korea Rep.",
+        "value": 0.524936679
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2016",
+        "subregion": "Kyrgyz Republic",
+        "value": 0.16509992699999998
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2016",
+        "subregion": "Norway",
+        "value": 0.564484366
+    },
+    {
+        "key": "1800.0 MHZ",
+        "region": "2017",
+        "subregion": "Kyrgyz Republic",
+        "value": 0.16509992699999998
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2011",
+        "subregion": "Belgium",
+        "value": 0.28327689100000003
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2012",
+        "subregion": "Hungary",
+        "value": 0.079934978
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2012",
+        "subregion": "Norway",
+        "value": 0.011993513999999999
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2013",
+        "subregion": "Algeria",
+        "value": 0.13821588099999998
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2013",
+        "subregion": "Bangladesh",
+        "value": 0.192398645
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2013",
+        "subregion": "Colombia",
+        "value": 0.12233352900000001
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2013",
+        "subregion": "Peru",
+        "value": 0.222149144
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2014",
+        "subregion": "Dominican Republic",
+        "value": 0.211421652
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2014",
+        "subregion": "Hong Kong China",
+        "value": 1.275534655
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2014",
+        "subregion": "Pakistan",
+        "value": 0.26986356300000003
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2015",
+        "subregion": "Turkey",
+        "value": 0.656888146
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2015",
+        "subregion": "Ukraine",
+        "value": 0.35060062
+    },
+    {
+        "key": "2100.0 MHZ",
+        "region": "2016",
+        "subregion": "Korea Rep.",
+        "value": 0.444624859
+    },
+    {
+        "key": "2300.0 MHZ",
+        "region": "2011",
+        "subregion": "Hong Kong Chi0",
+        "value": 0.291343532
+    },
+    {
+        "key": "2300.0 MHZ",
+        "region": "2012",
+        "subregion": "Latvia",
+        "value": 0.0033454559999999997
+    },
+    {
+        "key": "2300.0 MHZ",
+        "region": "2014",
+        "subregion": "Nigeria",
+        "value": 0.008318367
+    },
+    {
+        "key": "2300.0 MHZ",
+        "region": "2016",
+        "subregion": "Korea Rep.",
+        "value": 0.552871225
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2011",
+        "subregion": "Belgium",
+        "value": 0.057642168
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2011",
+        "subregion": "France",
+        "value": 0.13581906900000001
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2011",
+        "subregion": "Italy",
+        "value": 0.053572212
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2011",
+        "subregion": "Portugal",
+        "value": 0.044745645
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2011",
+        "subregion": "Spain",
+        "value": 0.034264941
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2012",
+        "subregion": "Chile",
+        "value": 0.017714495
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2012",
+        "subregion": "Latvia",
+        "value": 0.019191051
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2012",
+        "subregion": "Romania",
+        "value": 0.028356362000000003
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2013",
+        "subregion": "Colombia",
+        "value": 0.039453887
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2013",
+        "subregion": "Czech Republic",
+        "value": 0.061568915
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2013",
+        "subregion": "Hong Kong Chi0",
+        "value": 0.825773588
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2013",
+        "subregion": "Korea Rep.",
+        "value": 0.281459687
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2013",
+        "subregion": "United Kingdom",
+        "value": 0.09195596
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2014",
+        "subregion": "Greece",
+        "value": 0.07141642299999999
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2014",
+        "subregion": "Hungary",
+        "value": 0.058425608
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2015",
+        "subregion": "Poland",
+        "value": 0.15287136699999998
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2015",
+        "subregion": "Turkey",
+        "value": 0.268345796
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2016",
+        "subregion": "Czech Republic",
+        "value": 0.14516216099999998
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2016",
+        "subregion": "Nigeria",
+        "value": 9.37e-05
+    },
+    {
+        "key": "2600.0 MHZ",
+        "region": "2016",
+        "subregion": "Russian Federation",
+        "value": 0.047470828
+    },
+    {
+        "key": "3400.0 MHZ",
+        "region": "2014",
+        "subregion": "Greece",
+        "value": 0.006433502
+    },
+    {
+        "key": "3400.0 MHZ",
+        "region": "2015",
+        "subregion": "Romania",
+        "value": 0.005067708
+    },
+    {
+        "key": "3400.0 MHZ",
+        "region": "2016",
+        "subregion": "Hungary",
+        "value": 0.008080096
+    },
+    {
+        "key": "3600.0 MHZ",
+        "region": "2015",
+        "subregion": "Romania",
+        "value": 0.004613112
+    },
+    {
+        "key": "3600.0 MHZ",
+        "region": "2015",
+        "subregion": "Slovak Republic",
+        "value": 0.003728275
+    },
+    {
+        "key": "3600.0 MHZ",
+        "region": "2016",
+        "subregion": "Hungary",
+        "value": 0.009268565999999999
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2013",
+        "subregion": "Australia",
+        "value": 0.655610025
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2013",
+        "subregion": "Fiji",
+        "value": 0.052061557
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2014",
+        "subregion": "Argentina",
+        "value": 0.05578419
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2014",
+        "subregion": "Brazil",
+        "value": 0.275348224
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2014",
+        "subregion": "Chile",
+        "value": 0.036274264
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2014",
+        "subregion": "New Zealand",
+        "value": 1.319775318
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2015",
+        "subregion": "France",
+        "value": 0.9126277709999999
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2015",
+        "subregion": "Germany",
+        "value": 0.271929635
+    },
+    {
+        "key": "700.0 MHZ",
+        "region": "2016",
+        "subregion": "Finland",
+        "value": 0.227653346
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2011",
+        "subregion": "France",
+        "value": 1.012309573
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2011",
+        "subregion": "Italy",
+        "value": 1.071876283
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2011",
+        "subregion": "Portugal",
+        "value": 0.671184672
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2011",
+        "subregion": "Spain",
+        "value": 0.6888100159999999
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2011",
+        "subregion": "Sweden",
+        "value": 0.582226476
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2012",
+        "subregion": "Croatia",
+        "value": 0.456884134
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2012",
+        "subregion": "Denmark",
+        "value": 0.37430393100000003
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2012",
+        "subregion": "Ireland",
+        "value": 0.459845743
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2012",
+        "subregion": "Netherlands",
+        "value": 5.005485855
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2012",
+        "subregion": "Romania",
+        "value": 0.294500683
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2012",
+        "subregion": "Switzerland",
+        "value": 0.290437116
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Belgium",
+        "value": 0.7126048359999999
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Croatia",
+        "value": 0.6883692459999999
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Czech Republic",
+        "value": 1.02358321
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Estonia",
+        "value": 0.38696338399999997
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Finland",
+        "value": 0.46563203799999997
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Latvia",
+        "value": 0.051487744
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Lithuania",
+        "value": 0.16359257900000002
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Macedonia FYR",
+        "value": 0.319257835
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "Norway",
+        "value": 0.218703082
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2013",
+        "subregion": "United Kingdom",
+        "value": 0.21548432399999998
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2014",
+        "subregion": "Estonia",
+        "value": 0.384588693
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2014",
+        "subregion": "Georgia",
+        "value": 0.577321199
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2014",
+        "subregion": "Greece",
+        "value": 0.7835761940000001
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2014",
+        "subregion": "Hungary",
+        "value": 0.307893679
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2014",
+        "subregion": "Moldova",
+        "value": 0.236724293
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2014",
+        "subregion": "Slovenia",
+        "value": 0.280072644
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2015",
+        "subregion": "Morocco",
+        "value": 0.094140085
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2015",
+        "subregion": "Poland",
+        "value": 2.940953921
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2015",
+        "subregion": "Serbia",
+        "value": 0.7184095970000001
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2015",
+        "subregion": "Turkey",
+        "value": 0.681346747
+    },
+    {
+        "key": "800.0 MHZ",
+        "region": "2016",
+        "subregion": "Cyprus",
+        "value": 0.11200779400000001
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2011",
+        "subregion": "Greece",
+        "value": 0.577484942
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2011",
+        "subregion": "Hong Kong Chi0",
+        "value": 5.55266497
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2011",
+        "subregion": "Mozambique",
+        "value": 0.038565731
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2011",
+        "subregion": "Portugal",
+        "value": 0.44745644799999995
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2011",
+        "subregion": "Spain",
+        "value": 0.527245336
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2012",
+        "subregion": "Hungary",
+        "value": 3.130821275
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2012",
+        "subregion": "Romania",
+        "value": 0.515492104
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2013",
+        "subregion": "Uruguay",
+        "value": 0.24027559699999998
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2014",
+        "subregion": "Cyprus",
+        "value": 0.157249216
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2014",
+        "subregion": "Dominican Republic",
+        "value": 0.302030923
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2014",
+        "subregion": "Moldova",
+        "value": 0.160137022
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2015",
+        "subregion": "Germany",
+        "value": 0.335548708
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2015",
+        "subregion": "Nigeria",
+        "value": 0.030207393
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2015",
+        "subregion": "Thailand",
+        "value": 4.552442151
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2015",
+        "subregion": "Turkey",
+        "value": 0.498411085
+    },
+    {
+        "key": "900.0 MHZ",
+        "region": "2016",
+        "subregion": "Lithuania",
+        "value": 0.150019196
+    }
+]

@@ -157,6 +157,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
     d3.json("data/india_ppa_v2.json", function(error, dat) {
       var obj = dat[year];
+      console.log(year);
+      console.log(obj);
 
       Object.keys(obj).forEach(function(key) {
         var temp = obj[key];

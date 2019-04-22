@@ -9,6 +9,7 @@ import javax.ws.rs.Produces;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -71,6 +72,51 @@ public class Rest_Services {
 			e.printStackTrace();
 		}
 		return heatmap_json_array.toString();
+		//return 
+	            
+	 }
+	
+	@Path("indiamap/{year}")
+	@GET
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	 public static String IndiaMap(String input,@PathParam("year") String year) throws Exception{
+	    
+//		JSONObject input_json = new JSONObject(input);
+//		String year = input_json.getString("year");
+//		int seller_id = get_seller_id(httpheaders);
+//		
+//		
+//		
+//		ArrayList<Order_Details> items = DAO_Order_Details.get_Seller_Orders(seller_id);
+//		
+		Connection conn=DatabaseConnection.getConnection();
+		PreparedStatement preparedStatement = null;		
+		JSONArray indiamap_json_array = new JSONArray();
+//		
+		try {
+			String query = "select * from india_ppa_"+year;
+//			
+			preparedStatement = conn.prepareStatement(query);
+////			Category category_object = new Category();
+			//preparedStatement.setString(1,year);
+			ResultSet rs = preparedStatement.executeQuery();
+			ResultSetMetaData rsmd = rs.getMetaData();
+			while(rs.next()) {
+				JSONObject indiamap_json = new JSONObject();
+				for (int i = 1; i <= rsmd.getColumnCount(); i++) 
+					indiamap_json.put(rsmd.getColumnName(i),rs.getString(rsmd.getColumnName(i)));
+//				heatmap_json.put("country", rs.getString("country"));
+//				heatmap_json.put("band", rs.getString("band"));
+//				heatmap_json.put("value", rs.getString("value"));
+//				heatmap_json.put("year", rs.getString("year"));
+				indiamap_json_array.put(indiamap_json);
+			}
+			
+		}catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return indiamap_json_array.toString();
 		//return 
 	            
 	 }

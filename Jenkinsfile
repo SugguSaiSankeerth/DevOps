@@ -3,17 +3,17 @@ pipeline {
 	stages {
 		stage('Build Application Docker'){
 			steps {
-				sh 'docker build -t mvscharan9/spectrum_website .'
+				sh 'docker build -t project .'
 			}
 		}
 		stage('Build Database Docker'){
 			steps {
-				sh 'docker build -t mvscharan9/spectrum_website mysql.Dockerfile .'
+				sh 'docker build -t projectmysql mysql.Dockerfile .'
 			}
 		}
-		stage('Push to hub'){
+		stage('Compose up'){
 			steps {
-				sh 'docker push mvscharan9/spectrum_website'
+				sh 'docker-compose up'
 			}
 		}
 	}

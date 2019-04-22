@@ -1,0 +1,1000 @@
+ 1024  make
+ 1025  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1026  make
+ 1027  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1028  make
+ 1029  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1030  make
+ 1031  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1032  make
+ 1033  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1034  make
+ 1035  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1036  make
+ 1037  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1038  make
+ 1039  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1040  make
+ 1041  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1042  make
+ 1043  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1044  make
+ 1045  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1046  make
+ 1047  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1048  make
+ 1049  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1050  make
+ 1051  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1052  make
+ 1053  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1054  make
+ 1055  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1056  make
+ 1057  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1058  make
+ 1059  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1060  make
+ 1061  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1062  make
+ 1063  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1064  make
+ 1065  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1066  make
+ 1067  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1068  make
+ 1069  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1070  make
+ 1071  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1072  make
+ 1073  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1074  make
+ 1075  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1076  make
+ 1077  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1078  make
+ 1079  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1080  make
+ 1081  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1082  make
+ 1083  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1084  make
+ 1085  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1086  make
+ 1087  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1088  make
+ 1089  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1090  make
+ 1091  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1092  make
+ 1093  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1094  make
+ 1095  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1096  make
+ 1097  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1098  make
+ 1099  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1100  make
+ 1101  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1102  make
+ 1103  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1104  make
+ 1105  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1106  make
+ 1107  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1108  make
+ 1109  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1110  make
+ 1111  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1112  make
+ 1113  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1114  make
+ 1115  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1116  make
+ 1117  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1118  make
+ 1119  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1120  make
+ 1121  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1122  make
+ 1123  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1124  make
+ 1125  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1126  make
+ 1127  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1128  make
+ 1129  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1130  make
+ 1131  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1132  make
+ 1133  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1134  subl
+ 1135  make
+ 1136  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1137  make
+ 1138  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1139  make
+ 1140  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1141  make
+ 1142  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1143  make
+ 1144  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1145  make
+ 1146  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1147  make
+ 1148  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1149  make
+ 1150  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1151  make
+ 1152  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1153  make
+ 1154  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1155  make
+ 1156  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1157  make
+ 1158  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1159  make
+ 1160  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1161  make
+ 1162  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1163  make
+ 1164  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1165  make
+ 1166  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1167  make
+ 1168  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1169  make
+ 1170  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1171  bin/./main data/Aug-2016-salinity-180x188.txt 
+ 1172  subl
+ 1173  bin/./main data/Aug-2016-salinity-180x188.txt 
+ 1174  bin/./main data/Aug-2016-tropical-heat-potential-180x188.txt 
+ 1175  make
+ 1176  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1177  make
+ 1178  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1179  make
+ 1180  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1181  make
+ 1182  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1183  make
+ 1184  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1185  make
+ 1186  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1187  make
+ 1188  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1189  make
+ 1190  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1191  make
+ 1192  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1193  make
+ 1194  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1195  make
+ 1196  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1197  make
+ 1198  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1199  make
+ 1200  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1201  make
+ 1202  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1203  make
+ 1204  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1205  make
+ 1206  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1207  make
+ 1208  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1209  make
+ 1210  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1211  make
+ 1212  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1213  make
+ 1214  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1215  make
+ 1216  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1217  make
+ 1218  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1219  make
+ 1220  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1221  make
+ 1222  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1223  make
+ 1224  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1225  make
+ 1226  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1227  make
+ 1228  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1229  make
+ 1230  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1231  make
+ 1232  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1233  make
+ 1234  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1235  make
+ 1236  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1237  make
+ 1238  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1239  make
+ 1240  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1241  make
+ 1242  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1243  make
+ 1244  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1245  make
+ 1246  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1247  make
+ 1248  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1249  make
+ 1250  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1251  make
+ 1252  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1253  make
+ 1254  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1255  make
+ 1256  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1257  make
+ 1258  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1259  make
+ 1260  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1261  make
+ 1262  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1263  make
+ 1264  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1265  make
+ 1266  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1267  make
+ 1268  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1269  make
+ 1270  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1271  subl README.txt
+ 1272  jupyter notebook
+ 1273  cd .
+ 1274  cd ..
+ 1275  source env
+ 1276  source bin/activate
+ 1277  cd env/
+ 1278  source bin/activate
+ 1279  jupyter notebook
+ 1280  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1281  subl
+ 1282  make
+ 1283  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1284  make
+ 1285  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1286  make
+ 1287  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1288  make
+ 1289  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1290  make
+ 1291  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1292  subl
+ 1293  make
+ 1294  subl
+ 1295  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1296  make
+ 1297  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1298  make
+ 1299  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1300  make
+ 1301  bin/./main data/Aug-2016-potential-temperature-180x188.txt 
+ 1302  subl source/model.cpp source/view.cpp source/controller.cpp 
+ 1303  subl include/model.h include/view.h include/controller.h 
+ 1304  cd source/
+ 1305  make marching
+ 1306  cd ..
+ 1307  cd bin/
+ 1308  ./marching ../data/multifield.0100.txt
+ 1309  cd ..
+ 1310  cd source/
+ 1311  make slicing
+ 1312  cd ..
+ 1313  cd bin/
+ 1314  ./slicing ../data/multifield.0100.txt 
+ 1315  mkdir bin include source images
+ 1316  make
+ 1317  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1318  make
+ 1319  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1320  make
+ 1321  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1322  make
+ 1323  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1324  make
+ 1325  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1326  make
+ 1327  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1328  make
+ 1329  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1330  make
+ 1331  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1332  make
+ 1333  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1334  make
+ 1335  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1336  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1337  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1338  make
+ 1339  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1340  make
+ 1341  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1342  make
+ 1343  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1344  make
+ 1345  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1346  make
+ 1347  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1348  make
+ 1349  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1350  make
+ 1351  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1352  make
+ 1353  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1354  make
+ 1355  bin/./main data/salinity_2016-08-06_180x188x11.txt 
+ 1356  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1357  make
+ 1358  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1359  make
+ 1360  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1361  make
+ 1362  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1363  make
+ 1364  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1365  make
+ 1366  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1367  make
+ 1368  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1369  make
+ 1370  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1371  make
+ 1372  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1373  make
+ 1374  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1375  make
+ 1376  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1377  make
+ 1378  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1379  make
+ 1380  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1381  make
+ 1382  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1383  make
+ 1384  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1385  make
+ 1386  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1387  make
+ 1388  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1389  make
+ 1390  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1391  make
+ 1392  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1393  make
+ 1394  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1395  make
+ 1396  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1397  make
+ 1398  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1399  make
+ 1400  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1401  make
+ 1402  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1403  make
+ 1404  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1405  make
+ 1406  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1407  make
+ 1408  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1409  make
+ 1410  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1411  make
+ 1412  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1413  make
+ 1414  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1415  make
+ 1416  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1417  make
+ 1418  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1419  make
+ 1420  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1421  make
+ 1422  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1423  make
+ 1424  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1425  make
+ 1426  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1427  subl
+ 1428  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1429  make
+ 1430  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1431  make
+ 1432  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1433  make
+ 1434  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1435  make
+ 1436  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1437  make
+ 1438  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1439  make
+ 1440  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1441  make
+ 1442  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1443  make
+ 1444  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1445  make
+ 1446  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1447  make
+ 1448  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1449  make
+ 1450  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1451  make
+ 1452  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1453  make
+ 1454  bin/./main data/temperature_2016-08-06_180x188x11.txt 
+ 1455  sudo apt update
+ 1456  python3 --version
+ 1457  pip3 --version
+ 1458  virtualenv --version
+ 1459  sudo apt install python3-dev python3-pip
+ 1460  sudo pip3 install -U virtualenv
+ 1461  pip install --upgrade tensorflow
+ 1462  python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+ 1463  virtualenv --system-site-packages -p python3 ./venv
+ 1464  cd ~/tf-demo
+ 1465  python3 -m venv tensorflow-dev
+ 1466  sudo apt-get install python3-venv
+ 1467  python3 -m venv tensorflow-dev
+ 1468  source tensorflow-dev/bin/activate
+ 1469  pip3 install --upgrade tensorflow
+ 1470  python
+ 1471  exit() ;
+ 1472  exit
+ 1473  python
+ 1474  python3 -m venv tensorflow-dev
+ 1475  source tensorflow-dev/bin/activate
+ 1476  python
+ 1477  pip3 install --upgrade tensorflow
+ 1478  pip3 install --upgrade pip
+ 1479  pip3 install --upgrade tensorflow
+ 1480  python
+ 1481  sudo apt-get install python-opencv
+ 1482  python
+ 1483  sudo apt-get install cmake
+ 1484  sudo apt-get install python-opencv
+ 1485  python
+ 1486  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+ 1487  sudo apt-get install git gfortran
+ 1488  sudo apt-get install libjpeg8-dev libjasper-dev libpng12-dev
+ 1489  cd ..
+ 1490  source tensorflow-dev/bin/activate
+ 1491  source ../tensorflow-dev/bin/activate
+ 1492  python
+ 1493  bash stylize_image.sh image_input/face.jpg image_input/face_mask.png
+ 1494  python
+ 1495  sudo apt-get install python-opencv
+ 1496  python
+ 1497  sudo apt-get install cmake
+ 1498  sudo apt-get install python-devel numpy
+ 1499  sudo apt-get install gcc gcc-c++
+ 1500  sudo apt-get install gtk2-devel
+ 1501  sudo apt-get install git
+ 1502  git clone https://github.com/opencv/opencv.git
+ 1503  python
+ 1504  bash stylize_image.sh image_input/face.jpg image_input/face_mask.png
+ 1505  python
+ 1506  sudo apt-get update
+ 1507  sudo apt-get upgrade
+ 1508  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+ 1509  sudo apt-get install git gfortran
+ 1510  sudo apt-get install libjpeg8-dev libjasper-dev libpng12-dev
+ 1511  sudo apt-get install libtiff4-dev
+ 1512  sudo apt-get install libtiff5-dev
+ 1513  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
+ 1514  sudo apt-get install libxine2-dev libv4l-dev
+ 1515  sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+ 1516  sudo apt-get install qt5-default libgtk2.0-dev libtbb-dev
+ 1517  sudo apt-get install libatlas-base-dev
+ 1518  sudo apt-get install libfaac-dev libmp3lame-dev libtheora-dev
+ 1519  sudo apt-get install libvorbis-dev libxvidcore-dev
+ 1520  udo apt-get install libopencore-amrnb-dev libopencore-amrwb-dev
+ 1521  sudo apt install udo
+ 1522  udo apt-get install libopencore-amrnb-dev libopencore-amrwb-dev
+ 1523  sudo apt-get install libopencore-amrnb-dev libopencore-amrwb-dev
+ 1524  sudo apt-get install x264 v4l-utils
+ 1525  sudo apt-get install python-dev python-pip python3-dev python3-pip
+ 1526  sudo -H pip2 install -U pip numpy
+ 1527  sudo -H pip3 install -U pip numpy
+ 1528  git clone https://github.com/opencv/opencv.git
+ 1529  python
+ 1530  sudo apt-get update
+ 1531  apt-get install git-core
+ 1532  sudo apt-get install git-core
+ 1533  git --version
+ 1534  git init
+ 1535  ls -al
+ 1536  cs .git
+ 1537  cd .git
+ 1538  ls
+ 1539  cd ..
+ 1540  mkdir devops
+ 1541  cd devops
+ 1542  git clone https://github.com/Charan000/Learning_Git.git
+ 1543  cd Learning_Git/
+ 1544  ls
+ 1545  subl README.md 
+ 1546  git config --global user.name Charan000
+ 1547  git config --global user.email mvscharan9@gmail.com
+ 1548  git commit -m "Commit by Charan"
+ 1549  git add .
+ 1550  git commit -m "Commit by Charan"
+ 1551  git add README.md 
+ 1552  git commit -m "Commit by Charan"
+ 1553  git push
+ 1554  bin/./main data/cow.ply 
+ 1555  javac -version
+ 1556  subl Test.java
+ 1557  javac Te
+ 1558  javac Test.java 
+ 1559  java Test 
+ 1560  java
+ 1561  javac -verison
+ 1562  javac -version
+ 1563  java -version
+ 1564  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+ 1565  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1566  sudo apt-get update
+ 1567  sudo apt-get install jenkins
+ 1568  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+ 1569  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1570  sudo apt-get update
+ 1571  sudo apt-get install jenkins
+ 1572  sudo apt-get purge jenkins
+ 1573  sudo apt-get install jenkins
+ 1574  sudo apt-get purge jenkins
+ 1575  sudo apt-remove jenkins
+ 1576  sudo remove jenkins
+ 1577  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+ 1578  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+ 1579  sudo apt-get update
+ 1580  sudo apt-get install jenkins
+ 1581  sudo apt-purge java
+ 1582  sudo apt-get purge java
+ 1583  sudo apt-get remove oracle-java7-*
+ 1584  sudo apt-get purge jenkins
+ 1585  sudo apt-get remove oracle-java7-*
+ 1586  java -version
+ 1587  sudo apt-get autoremove openjdk-9-jre-headless
+ 1588  sudo apt-get remove default-jdk
+ 1589  sudo apt-get purge openjdk-9-jre-headless gcj-4.9-jre-headless
+ 1590  java -version
+ 1591  javac
+ 1592  java -verion
+ 1593  java -version
+ 1594  sudo apt update && sudo apt upgrade
+ 1595  ping google.com
+ 1596  sudo update-alternatives --config java
+ 1597  sudo apt install openjdk-8-jdk
+ 1598  sudo update-alternatives --config java
+ 1599  java -v
+ 1600  java -version
+ 1601  sudo apt install openjdk-8-*
+ 1602  sudo apt install openjdk-8-jre
+ 1603  sudo update-alternatives --config java
+ 1604  java -version
+ 1605  javac -version
+ 1606  sudo apt remove openjdk-9-*
+ 1607  sudo update-alternatives --config java
+ 1608  sudo rm -rf /usr/lib/jdk-9.0.1/*
+ 1609  sudo update-alternatives --config java
+ 1610  history 
+ 1611  history  | grep java
+ 1612  sudo apt remove oracle-java*
+ 1613  sudo apt autoremove
+ 1614  javac -version
+ 1615  java -version
+ 1616  sudo update-alternatives --config java
+ 1617  javac -version
+ 1618  sudo apt install openjdk-8-jdk-headless 
+ 1619  sudo update-alternatives --config java
+ 1620  javac -version
+ 1621  sudo update
+ 1622  sudo apt update
+ 1623  javac -version
+ 1624  sudo apt remove openjdk-*
+ 1625  sudo apt remove --purge openjdk*
+ 1626  javac -version
+ 1627  sudo update-alternatives --config java
+ 1628  sudo update-alternatives 
+ 1629  sudo apt install openjdk-8-jdk openjdk-8-jre*
+ 1630  sudo update-java-alternatives 
+ 1631  sudo update-java-alternatives  -l
+ 1632  sudo rm -rf /usr/lib/jvm/java-9-oracle/
+ 1633  sudo update-java-alternatives  -l
+ 1634  sudo update-alternatives --config java
+ 1635  find / -name 'java'
+ 1636  sudo rm -rf /usr/local/jvm/jdk-9.0.1_linux-x64_bin/*
+ 1637  sudo rm -rf /usr/local/java*
+ 1638  sudo update-alternatives --config java
+ 1639  sudo apt install openjdk-8-jdk openjdk-8-jre*
+ 1640  sudo apt update
+ 1641  sudo apt install openjdk-8-jdk openjdk-8-jre*
+ 1642  sudo apt update
+ 1643  sudo reboot
+ 1644  sudo apt update
+ 1645  sudo apt install openjdk-8-jdk openjdk-8-jre*
+ 1646  sudo apt update
+ 1647  sudo apt install openjdk-8-jdk openjdk-8-jre*
+ 1648  sudo update-alternatives --config java
+ 1649  java -version
+ 1650  javac -version
+ 1651  sudo apt install jenkins
+ 1652  cat /var/lib/jenkins/secrets/initialpassword
+ 1653  sudo cat /var/lib/jenkins/secrets/initialpassword
+ 1654  sudo ls /var/lib/jenkins/secrets/
+ 1655  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 1656  sudo systemctl status jenkins
+ 1657  curl localhost:8080
+ 1658  sudo apt install curl
+ 1659  curl localhost:8080
+ 1660  curl google.com
+ 1661  sudo apt update && sudo apt upgrade
+ 1662  sudo systemctl network-manager restart
+ 1663  sudo systemctl restart network-manager
+ 1664  javac -version
+ 1665  sudoo chmod +x ngrok 
+ 1666  sudo chmod +x ngrok 
+ 1667  ngrok http 8080
+ 1668  ./ngrok http 8080
+ 1669  E
+ 1670  whreis java
+ 1671  whereis java
+ 1672  sudo apt-get install maven
+ 1673  mvn -v | awk 'FNR==2 {print $3}'
+ 1674  sudo update-alternatives --config java
+ 1675  mvn -v | awk 'FNR==2 {print $3}'
+ 1676  cat /etc/profile | grep JAVA
+ 1677  cat ~/.bashrc | grep JAVA
+ 1678  echo $JAVA_HOME
+ 1679  sudo grep -r "/usr/lib/jdk-9.0.1" /
+ 1680  gedit /etc/environment 
+ 1681  sudo rm /etc/environment 
+ 1682  javac -version
+ 1683  mvn -v | awk 'FNR==2 {print $3}'
+ 1684  echo $JAVA_HOME
+ 1685  sudo gedit etc/environment
+ 1686  sudo update-alternatives --config java
+ 1687  vim .bashrc 
+ 1688  export $JAVA_HOME 
+ 1689  export $JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+ 1690  export $JAVA_HOME "/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+ 1691  ls /etc
+ 1692  gksudo gedit /etc/environment
+ 1693  sudo apt install gksu
+ 1694  gksudo gedit /etc/environment
+ 1695  . /etc/environment
+ 1696  echo $JAVA_HOME
+ 1697  gksudo gedit /etc/environment
+ 1698  echo $JAVA_HOME
+ 1699  gksudo gedit /etc/environment
+ 1700  . /etc/environment
+ 1701  echo $JAVA_HOME
+ 1702  mvn -v | awk 'FNR==2 {print $3}'
+ 1703  mvn -v | awk 'FNR==4 {print substr($3,1,34)}'
+ 1704  git init
+ 1705  git add .
+ 1706  git commit -m "maven commit"
+ 1707  git remote origin master
+ 1708  git remote add origin https://github.com/CS816SPE/maven-assignment-Charan000.git
+ 1709  git fetch 
+ 1710  git push origin master
+ 1711  git pull origin master 
+ 1712  git push origin master
+ 1713  cat /usr/libexec/java_home
+ 1714  ls /usr/libexec
+ 1715  ls usr/libexec
+ 1716  ls usr
+ 1717  ls user
+ 1718  whereis java
+ 1719  where jdk
+ 1720  whereis jdk
+ 1721  whereis jdk-8
+ 1722  whereis java-8
+ 1723  whereis java
+ 1724  whereis javac
+ 1725  whereis java
+ 1726  echo $JAVA_HOME
+ 1727  echo /etc/profile
+ 1728  ls /etc/profile
+ 1729  cat /etc/profile
+ 1730  whereis java
+ 1731  ls /usr/lib
+ 1732  ls /usr/lib/java/
+ 1733  ls /usr/lib/jvm/
+ 1734  ls /usr/lib/jvm/java-1.8.0-openjdk-amd64
+ 1735  ls /usr/lib/jvm/java-8-openjdk-amd64/
+ 1736  export DISPLAY=:0
+ 1737  sudo dconf reset -f /org/compiz/
+ 1738  setsid unity
+ 1739  sudo reboot
+ 1740  sudo apt install --reinstall ubuntu-desktop
+ 1741  sudo apt install unity
+ 1742  mv ~/.config ~/.config_backup
+ 1743  sudo reboot
+ 1744  sudo dpkg --configure -a
+ 1745  sudo apt dist-upgrade 
+ 1746  sudo apt install --reinstall unity
+ 1747  sudo reboot
+ 1748  sudo apt install --reinstall ubuntu-desktop
+ 1749  sudo reboot
+ 1750  sudo apt install compizconfig-settings-manager
+ 1751  DISPLAY=:0 ccsm &
+ 1752  ls -al ~/.Xauthority 
+ 1753  chmod 777 ~/.Xauthority 
+ 1754  ls -al ~/.Xauthority 
+ 1755  sudo reboot
+ 1756  sudo mv ~/.Xauthority ~/.Xauthority.backup
+ 1757  sudo service lightdm restart 
+ 1758  ls -al ~/.Xauthority
+ 1759  sudo add-apt-repository ppa:graphics-drivers/ppa
+ 1760  sudo apt update
+ 1761  sudo apt install nvidia-390
+ 1762  sudo reboot
+ 1763  sudo apt install --reinstall lightdm
+ 1764  sudo service lightdm restart 
+ 1765  sudo mv ~/.Xauthority ~/.Xauthority.backup
+ 1766  sudo service lightdm restart 
+ 1767  cat /var/log/Xorg.0.log
+ 1768  cat /var/log/Xorg.0.log | grep glx
+ 1769  cat /var/log/Xorg.0.log | tail
+ 1770  sudo apt purge nvidia-*
+ 1771  sudo reboot
+ 1772  sudo apt install nvidia-common xserver-xorg-video-nouveau
+ 1773  sudo dpkg-reconfigure xserver-xorg
+ 1774  sudo apt install xserver-xorg
+ 1775  sudo dpkg-reconfigure xserver-xorg
+ 1776  sudo reboot
+ 1777  sudo apt purge ubuntu-deskop
+ 1778  sudo apt install ubuntu-desktop
+ 1779  sudo apt install unity
+ 1780  sudo service lightdm restart 
+ 1781  sudo dpkg-reconfigure -a
+ 1782  sudo dpkg-reconfigure a
+ 1783  sudo dpkg-reconfigure
+ 1784  sudo dpkg-reconfigure -a
+ 1785  sudo dpkg-reconfigure -a ubuntu-desktop 
+ 1786  sudo dpkg-reconfigure  ubuntu-desktop 
+ 1787  sudo reboot
+ 1788  sudo apt install dpkg
+ 1789  sudo apt update
+ 1790  sudo apt upgrade
+ 1791  sudo apt install ubuntu-desktop
+ 1792  sudo apt install unity
+ 1793  mv ~/.config ~/.config_backup
+ 1794  sudo reboot
+ 1795  sudo apt install nvidia-415
+ 1796  sudo apt install xserver-xorg-video-nouveau
+ 1797  sudo apt install --reinstall libgl1-mesa-dri libgl1-mesa-glx xserver-xorg-core
+ 1798  sudo dpkg-reconfigure xserver-xorg
+ 1799  sudo reboot
+ 1800  ls -al ~/.Xauthority
+ 1801  mv ~/.Xauthority ~/.Xauthority.backup 
+ 1802  sudo service lightdm restart
+ 1803  ls -al ~/.Xauthority
+ 1804  cat /var/log/Xorg.0.log | tail
+ 1805  cat /var/log/Xorg.0.log
+ 1806  sudo service lightdm restart
+ 1807  cat /var/log/Xorg.0.log
+ 1808  sudo reboot
+ 1809  cat /var/log/Xorg.0.log
+ 1810  sudo lightdm --reset
+ 1811  sudo lightdm -reset
+ 1812  sudo lightdm --help
+ 1813  cat /sys/class/power_supply/BAT0/capacity
+ 1814  cat /sys/class/power_supply/BAT0/status 
+ 1815  acpi 0V
+ 1816  acpi -V
+ 1817  cat /sys/class/power_supply/BAT0/capacity_level 
+ 1818  sudo apt install gdm3
+ 1819  sudo apt remove --purge lightdm ubuntu-desktop 
+ 1820  sudo apt install lightdm ubuntu-desktop
+ 1821  sudo apt remove --purge unity
+ 1822  sudo apt install unity
+ 1823  sudo reboot
+ 1824  cat /sys/class/power_supply/BAT0/capacity_level 
+ 1825  cat /var/log/Xorg.0.log
+ 1826  sudo apt update && audo apt upgrade
+ 1827  sudo apt update && sudo apt upgrade
+ 1828  sudo apt install gdm3
+ 1829  cat /etc/X11/default-display-manager 
+ 1830  sudo dpkg-reconfigure lightdm 
+ 1831  export DISPLAY=:0
+ 1832  DISPLAY=:0 ccsm &
+ 1833  sudo service lightdm restart 
+ 1834  DISPLAY=:0 ccsm &
+ 1835  rm ~/.Xauthority
+ 1836  sudo service lightdm restart 
+ 1837  DISPLAY=:0 ccsm &
+ 1838  sudo reboot
+ 1839  sudo apt install nvidia-415
+ 1840  sudo ubuntu-drivers devices
+ 1841  sudo apt install nvidia-415
+ 1842  sudo reboot
+ 1843  sudo apt install nvidia-415
+ 1844  sudo dpkg-reconfigure nvidia-415 
+ 1845  sudo reboot
+ 1846  cat /etc/X11/default-display-manager 
+ 1847  cat /var/log/Xorg.0.log
+ 1848  sudo apt remove --purge nvidia-415 
+ 1849  sudo apt install nvidia-390
+ 1850  sudo reboot
+ 1851  cat /var/log/Xorg.0.log
+ 1852  ubuntu-drivers list
+ 1853  sudo apt remove --purge nvidia-*
+ 1854  ubuntu-drivers list
+ 1855  sudo apt remove --purge nvidia-415
+ 1856  sudo apt remove --purge nvidia-390
+ 1857  sudo apt remove --purge nvidia-410
+ 1858  nvidia-detector 
+ 1859  sudo reboot
+ 1860  sudo service lightdm restart 
+ 1861  charan
+ 1862  sudo apt install xserver-xorg-input-all ubuntu-desktop ubuntu-minimal xorg xserver-org xserver-xorg-input-evdev xserver-xorg-video-intel*
+ 1863  sudo apt install xserver-xorg-input-all ubuntu-desktop ubuntu-minimal xorg xserver-xorg xserver-xorg-input-evdev xserver-xorg-video-intel*
+ 1864  sudo apt install xorg-video-abi-23
+ 1865  sudo apt install xserver-xorg-input-all ubuntu-desktop ubuntu-minimal xorg xserver-xorg xserver-xorg-input-evdev xserver-xorg-video-nouveau* xserver-xorg-core
+ 1866  sudo apt install xorg-video-abi-23
+ 1867  sudo apt install xserver-xorg-core-hwe-16.04 
+ 1868  sudo apt install xserver-xorg-input-all ubuntu-desktop ubuntu-minimal xorg xserver-xorg xserver-xorg-input-evdev xserver-xorg-video-nouveau xserver-xorg-core
+ 1869  sudo service lightdm restart 
+ 1870  sudo reboot
+ 1871  sudo apt install --reinstall ubuntu-desktop unity
+ 1872  sudo service lightdm restart 
+ 1873  sudo dpkg-reconfigure ubuntu-desktop 
+ 1874  sudo dpkg-reconfigure unity
+ 1875  sudo dpkg-reconfigure lightdm 
+ 1876  sudo service lightdm restart 
+ 1877  sudo shutdown now
+ 1878  sudo service lighgtdm stop
+ 1879  sudo service lightdm stop
+ 1880  sudo apt install lightdm
+ 1881  sudo apt update
+ 1882  sudo service lightdm start
+ 1883  cat /var/log/Xorg.0.log
+ 1884  cat /var/log/Xorg.0.log | less
+ 1885  sudo apt install kdm
+ 1886  sudo apt install gdm3
+ 1887  sudo service gdm3 start
+ 1888  sudo reboot
+ 1889  lshw
+ 1890  cd Desktop/
+ 1891  git clone https://github.com/lwfinger/rtlwifi_new.git
+ 1892  sudo apt-get install linux-headers-generic build-essential git
+ 1893  cd rtlwifi_new/
+ 1894  ls
+ 1895  cd rtl8723be/
+ 1896  ls
+ 1897  cd ..
+ 1898  sudo make install
+ 1899  sudo apt install libelf-dev,
+ 1900  sudo apt install libelf-dev,el
+ 1901  sudo apt install libelf-devel
+ 1902  sudo apt install libelf-dev
+ 1903  sudo make install
+ 1904  sudo modprobe -r rtl8723be 
+ 1905  sudo modporbe rtl8723be
+ 1906  sudo modprobe rtl8723be
+ 1907  sudo apt purge bcmwl-kernel-source
+ 1908  sudo sed -i '/blacklist bcma/ d' /etc/modprobe.d/blacklist.conf
+ 1909  sudo sed -i '/blacklist brcmsmac/ d' /etc/modprobe.d/blacklist.conf
+ 1910  sudo modprobe rtl8723be
+ 1911  sudo modprobe -r rtl8723be
+ 1912  sudo service network-manager restart
+ 1913  sudo modprobe -r rtl8723de
+ 1914  ls
+ 1915  sudo modprobe -r rtl8723be
+ 1916  sudo modprobe rtl8723be
+ 1917  sudo modprobe -r rtl8723be && sleep 5 && sudo modprobe rtl8723be ant_sel=1
+ 1918  sudo modprobe -r rtl8723be && sleep 5 && sudo modprobe rtl8723be ant_sel=2
+ 1919  sudo reboot
+ 1920  sudo modprobe -r rtl8723be && sleep 5 && sudo modprobe rtl8723be ant_sel=2
+ 1921  sudo apt remove --purge gdm3
+ 1922  subl App.java
+ 1923  javac App.java 
+ 1924  java App
+ 1925  journalctl
+ 1926  journalctl -fu jenkins
+ 1927  sudo systemctl status jenkins
+ 1928  history
+ 1929  sudo systemctl status jenkins
+ 1930  history tail 2
+ 1931  tail 2
+ 1932  tail
+ 1933  journalctl -fu jenkins
+ 1934  var log
+ 1935  ls /var/logs
+ 1936  ls var/logs
+ 1937  ls var/log
+ 1938  ls /var/log
+ 1939  knife bootstrap 172.17.0.2 --node-name charan
+ 1940  cd sem8
+ 1941  cd devops/
+ 1942  cd chef/
+ 1943  cd chef-repo/
+ 1944  knife bootstrap 172.17.0.2 --node-name charan
+ 1945  chef generate cookbook <cookbook name>
+ 1946  chef generate cookbook segal
+ 1947  chef generate cookbook test
+ 1948  cd cookbooks/
+ 1949  chef generate cookbook test
+ 1950  cd test/
+ 1951  cls
+ 1952  ls
+ 1953  cd recipes/
+ 1954  subl default.rb
+ 1955  cd ..
+ 1956  knife cookbook upload test
+ 1957  cd sem8
+ 1958  cd devops/
+ 1959  cd chef/
+ 1960  cd chef-repo/
+ 1961  knife bootstrap 172.17.0.2 --node-name charan
+ 1962  sudo apt install chef
+ 1963  knife bootstrap 172.17.0.2 --node-name charan
+ 1964  ping 172.17.0.2
+ 1965  ssh root@172.17.0.2
+ 1966  docker pull ubuntu
+ 1967  sudo apt install docker.io
+ 1968  sudo apt get update
+ 1969  sudo apt-get update
+ 1970  sudo apt install docker.io
+ 1971  docker pull ubuntu
+ 1972  sudo docker pull ubuntu
+ 1973  docker run -it ubuntu /bin/bash
+ 1974  sudo docker run -it ubuntu /bin/bash
+ 1975  cd /var/lib/rundeck
+ 1976  ls
+ 1977  ls -h
+ 1978  ls -a
+ 1979  sudo su
+ 1980  sudo dpkg -i rundeck_3.0.18.20190322-1.201903230201_all.deb 
+ 1981  sudo service rundeckd start
+ 1982  sudo service rundeckd status
+ 1983  docker run -it ubuntu /bin/bash
+ 1984  sudo docker run -it ubuntu /bin/bash
+ 1985  mysql
+ 1986  mysql -u root -p
+ 1987  ./eclipse
+ 1988  cd eclipse
+ 1989  ls
+ 1990  cd jee-2019-03/
+ 1991  ls
+ 1992  ./eclipse/
+ 1993  ./eclipse
+ 1994  cd eclipse/
+ 1995  ls
+ 1996  ./eclipse.ini
+ 1997  mysql
+ 1998  mysql -u root -p
+ 1999  maven exec:java
+ 2000  mvn exec:java
+ 2001  mvn exec
+ 2002  mvn install package
+ 2003  cd target/
+ 2004  java DevOps.war
+ 2005  cd ..
+ 2006  mvn exec:java
+ 2007  mvn site-deploy 
+ 2008  find . -name *.Main
+ 2009  find . -name '*.Main'
+ 2010  find . --name '*.Main'
+ 2011  find . -name '*.Main'
+ 2012  find . -name '*.war'
+ 2013  docker run -it -p 8081:8081 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/ROOT.war tomcat
+ 2014* sudo docker run -it -p 8081:8080 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/ROOT.war tomcat
+ 2015  sudo docker run -it -p 8081:8081 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/DevOps.war tomcat
+ 2016  sudo docker run -it -p 8081:8081 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/ROOT.war tomcat
+ 2017  sudo docker run -it -p 8081:8081 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/ROOT.war -v $(pwd)/target/DevOps:/usr/local/tomcat/webapps/ROOT tomcat
+ 2018  sudo docker run -it -p 8081:8081 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/DevOps.war tomcat
+ 2019  mvn package
+ 2020  sudo docker run -it -p 8080:8080 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/DevOps.war tomcat
+ 2021  sudo docker run -it -p 8081:8080 -v $(pwd)/target/DevOps.war:/usr/local/tomcat/webapps/DevOps.war tomcat
+ 2022  history
+ 2023  history > commands.txt

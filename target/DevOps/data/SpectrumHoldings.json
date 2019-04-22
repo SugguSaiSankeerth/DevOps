@@ -1,0 +1,963 @@
+{
+	"children":
+	[
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 40
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 21.15
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 13.6
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 22.55
+		  },
+		  {
+			"name": "Reliance Jio",
+			"total": 20.4
+		  },
+		  {
+			"name": "MTS",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 6.23
+		  },
+		  {
+			"name": "Vodafone Essar+Tikona",
+			"total": 42
+		  }
+		],
+		"name": "Delhi"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 55
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 23.7
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 0
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 14.98
+		  },
+		  {
+			"name": "Reliance Jio",
+			"total": 35
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 8.75
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 27
+		  }
+		],
+		"name": "Kolkata"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 25.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 29.9
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 11.4
+		  },
+		  {
+			"name": "Loop",
+			"total": 2
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 19.4
+		  },
+		  {
+			"name": "Reliance Jio",
+			"total": 36.52
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 16.86
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 26.2
+		  }
+		],
+		"name": "Mumbai"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 26.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 28.75
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 17.8
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 18.8
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 35.8
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 15.69
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 13.2
+		  }
+		],
+		"name": "Andhra Pradesh"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 16.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 24.9
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 11.6
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 18.78
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 41
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 13.15
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  },
+		  {
+			"name": "Videocon",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar + Tikona+Telewings",
+			"total": 28.8
+		  },
+		  {
+			"name": "Tikona",
+			"total": 0
+		  }
+		],
+		"name": "Gujarat"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 54.8
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 23.15
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 35
+		  },
+		  {
+			"name": "MTS",
+			"total": 0
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 11
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 8.15
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 18
+		  }
+		],
+		"name": "Karnataka"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 38.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 22.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 22
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 12.55
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 35
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 16.86
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 16.25
+		  }
+		],
+		"name": "Maharashtra"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 21.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 25
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 11.4
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 26.8
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 36.8
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 8.15
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 23
+		  }
+		],
+		"name": "Tamil Nadu. Chennai"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 21.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 17
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 14.38
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 18.92
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 15.63
+		  },
+		  {
+			"name": "Videocon",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 21.1
+		  },
+		  {
+			"name": "Qualcomm",
+			"total": 0
+		  }
+		],
+		"name": "Haryana"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 16.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 28.75
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 22.8
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 22.55
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 30
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 13.15
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 23.4
+		  },
+		  {
+			"name": "Qualcomm",
+			"total": 0
+		  }
+		],
+		"name": "Kerala"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 23.8
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 25.8
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 19.4
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 36.32
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 11.9
+		  },
+		  {
+			"name": "Videocon",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 6.9
+		  },
+		  {
+			"name": "Auguere",
+			"total": 0
+		  }
+		],
+		"name": "MP"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 30
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 23.7
+		  },
+		  {
+			"name": "HFCL",
+			"total": 6.9
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 15
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 25.61
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 18.95
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 13.15
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 16.05
+		  }
+		],
+		"name": "Punjab"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 28
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 25.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 16.2
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 38.55
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 15
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 13.15
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 36.4
+		  },
+		  {
+			"name": "Tikona",
+			"total": 0
+		  }
+		],
+		"name": "Rajasthan"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 11
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 16.2
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 20.6
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 21.34
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 8.15
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  },
+		  {
+			"name": "Videocon",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar+Tikona+Telewings",
+			"total": 47.85
+		  },
+		  {
+			"name": "Tikona",
+			"total": 0
+		  }
+		],
+		"name": "UP(E)"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 16.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 21.8
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 18.78
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 15
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 13.15
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  },
+		  {
+			"name": "Videocon",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar+Tikona+Telewings",
+			"total": 31.9
+		  },
+		  {
+			"name": "Tikona",
+			"total": 0
+		  }
+		],
+		"name": "UP(W)"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 46.85
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 5
+		  },
+		  {
+			"name": "Reliance Communications+Aircel",
+			"total": 17.42
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 40.32
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 4.4
+		  },
+		  {
+			"name": "Vodafone Essar+Telewings",
+			"total": 24.9
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  }
+		],
+		"name": "Assam"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 49.6
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 15.65
+		  },
+		  {
+			"name": "RCOM+MTS+Aircel",
+			"total": 19.4
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 39.92
+		  },
+		  {
+			"name": "Stel",
+			"total": 5
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 8.15
+		  },
+		  {
+			"name": "Telewings",
+			"total": 0
+		  },
+		  {
+			"name": "Videocon",
+			"total": 0
+		  },
+		  {
+			"name": "Vodafone Essar+Tikona+Telewings",
+			"total": 14.1
+		  },
+		  {
+			"name": "Tikona",
+			"total": 0
+		  }
+		],
+		"name": "Bihar"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 15.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 14.8
+		  },
+		  {
+			"name": "Reliance Communications+Aircel",
+			"total": 26.76
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 45.32
+		  },
+		  {
+			"name": "Stel",
+			"total": 5
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 6.9
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 5.65
+		  }
+		],
+		"name": "HP"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel",
+			"total": 25
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 25.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 15
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 26.16
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 22.12
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 9.4
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 6.9
+		  }
+		],
+		"name": "J&K"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 55.6
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 11
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 25.02
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 41.32
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 4.4
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 19.7
+		  }
+		],
+		"name": "NE"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 49.2
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 27.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 10
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 24.38
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 39.92
+		  },
+		  {
+			"name": "Stel",
+			"total": 5
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 6.9
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 16.9
+		  }
+		],
+		"name": "Orissa"
+	  },
+	  {
+		"children": [
+		  {
+			"name": "Aircel",
+			"total": 0
+		  },
+		  {
+			"name": "Bharti Airtel+Qualcomm+Augere+Videocon+Aircel2300",
+			"total": 43.4
+		  },
+		  {
+			"name": "BSNL/ MTNL",
+			"total": 25.5
+		  },
+		  {
+			"name": "Idea Cellular",
+			"total": 10
+		  },
+		  {
+			"name": "Reliance Communications+MTS+Aircel",
+			"total": 26.13
+		  },
+		  {
+			"name": "Reliance Jio Infocomm",
+			"total": 41.6
+		  },
+		  {
+			"name": "Sistema Shyam",
+			"total": 0
+		  },
+		  {
+			"name": "Tata DoCoMo",
+			"total": 6.9
+		  },
+		  {
+			"name": "Vodafone Essar",
+			"total": 11.5
+		  }
+		],
+		"name": "WB, A&N"
+	  }
+	]
+}

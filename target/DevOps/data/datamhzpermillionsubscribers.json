@@ -1,0 +1,658 @@
+{
+  "children":[
+  {
+    "name": "Andhra Pradesh",
+    "children": [
+      {
+        "subscriberbase": "3.340047777",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.127994724",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "0.949338548",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.163482874",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "3.015215986",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.739767438",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "2.894425418",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "1.08799444",
+        "name": "Telewings"
+      }
+    ]
+  },
+  {
+    "name": "Gujarat",
+    "children": [
+       {
+        "subscriberbase": "257.8679013",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.692405331",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "1.082257952",
+        "name": "Vodafone + Tikona"
+      },
+      {
+        "subscriberbase": "0.967423837",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "7.783212829",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "2.82467065",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "4.783756038",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "0.61497559",
+        "name": "Telewings"
+      }
+    ]
+  },
+  {
+    "name": "Karnataka",
+    "children": [
+      {
+        "subscriberbase": "3.101221221",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.669806431",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "2.34350375",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.275997729",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "3.999862696",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "2.343503749",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "1.141105301",
+        "name": "Tata DoCoMo"
+      }
+     
+    ]
+  },
+  {
+    "name": "Maharashtra",
+    "children": [
+      {
+        "subscriberbase": "1.768827866",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.828540587",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "0.346092039",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "0.868182618",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "4.376606823",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.091485064",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "1.855819127",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "0.630267063",
+        "name": "Telewings"
+      }
+    ]
+  },
+  {
+    "name": "Tamil Nadu. Chennai",
+    "children": [
+     {
+        "subscriberbase": "1.055948907",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.733045582",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "1.015452849",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.92107904",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "2.875711408",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.349753419",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "1.46681612",
+        "name": "Tata DoCoMo"
+      }
+     
+    ]
+  },
+  {
+    "name": "Haryana",
+    "children": [
+       {
+        "subscriberbase": "1423.027167",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "3.900645776",
+        "name": "Bharti Airtel+ Videocon"
+      },
+      {
+        "subscriberbase": "3.005430309",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "3.704208089",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "9.401391201",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "4.949365708",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "5.788400091",
+        "name": "Tata DoCoMo"
+      }
+    ]
+  },
+  {
+    "name": "Kerala",
+    "children": [
+      {
+        "subscriberbase": "45.44399752",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "2.624545216",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "2.626443893",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "2.221236305",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "4.120234608",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "5.427062346",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "8.27155353",
+        "name": "Tata DoCoMo"
+      }
+     
+    ]
+  },
+  {
+    "name": "MP",
+    "children": [
+      {
+        "subscriberbase": "212.622016",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.531350312",
+        "name": "Bharti Airtel+ Videocon"
+      },
+      {
+        "subscriberbase": "1.030946011",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.03068044",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "7.280966679",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.209259347",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "2.532664994",
+        "name": "Tata DoCoMo"
+      }
+     
+    ]
+  },
+  {
+    "name": "Punjab",
+    "children": [
+       {
+        "subscriberbase": "13.86001386",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "3.679406275",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "1.583803572",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "2.044804498",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "7.307966979",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "5.076015713",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "5.072067718",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "2.325927894",
+        "name": "HFCL"
+      }
+    ]
+  },
+  {
+    "name": "Rajasthan",
+    "children": [
+      {
+        "subscriberbase": "0.928536719",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.121828097",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "1.89621114",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "0.799758112",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "7.441907159",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "3.80043235",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "8.358769843",
+        "name": "Tata DoCoMo"
+      }
+    ]
+  },
+  {
+    "name": "UP(E)",
+    "children": [
+      {
+        "subscriberbase": "1.674193061",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "0.549885102",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "1.59136942",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.079235235",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "3.499913075",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.115520979",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "1.894500277",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "0.565830322",
+        "name": "Telewings"
+      }
+    ]
+  },
+  {
+    "name": "UP(W)",
+    "children": [
+      {
+        "subscriberbase": "7.720923703",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "2.027594307",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "1.563394206",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.009085009",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "7.483899411",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "2.648207055",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "3.672756553",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "0.827678026",
+        "name": "Telewings"
+      }
+    ]
+  },
+  {
+    "name": "Assam",
+    "children": [
+      {
+        "subscriberbase": "2.431485178",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "4.724186675",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "3.450611599",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "4.703452052",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "22.03202575",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "3.062496389",
+        "name": "RCOM"
+      }
+    
+    ]
+  },
+  {
+    "name": "Bihar",
+    "children": [
+       {
+        "subscriberbase": "1.371275055",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "0.912846737",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "0.742280285",
+        "name": "Vodafone + Tikona"
+      },
+      {
+        "subscriberbase": "0.520290644",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "10.08087427",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.078008814",
+        "name": "RCOM + MTS"
+      },
+    {
+        "subscriberbase": "4.338293182",
+        "name": "Tata DoCoMo"
+      },
+     {
+        "subscriberbase": "0.869425353",
+        "name": "Telewings"
+      }
+    ]
+  },
+  {
+    "name": "HP",
+    "children": [
+   {
+        "subscriberbase": "1.115165399",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "0.558232255",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "0.81301047",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "1.812260067",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "1.877552191",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "0.908503496",
+        "name": "RCOM"
+      },
+    {
+        "subscriberbase": "8.310949978",
+        "name": "Tata DoCoMo"
+      }
+    
+    ]
+  },
+  {
+    "name": "J&K",
+    "children": [
+    {
+        "subscriberbase": "2.677734636",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "5.256282602",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "6.583787281",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "16.59985226",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "20.68740599",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "17.26750198",
+        "name": "RCOM"
+      }
+    ]
+  },
+ 
+{
+    "name": "NE",
+    "children": [
+   {
+        "subscriberbase": "2.20060167",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "8.957454449",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "8.001963507",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "22.64567344",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "19.41725636",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "4.643682731",
+        "name": "RCOM"
+      }
+    
+    ]
+  },
+  {
+    "name": "Orissa",
+    "children": [
+   {
+        "subscriberbase": "2.114658588",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "3.009135095",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "3.06715339",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "6.21991118",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "7.579369782",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "3.357014704",
+        "name": "RCOM"
+      },
+      {
+        "subscriberbase": "3.009506114",
+        "name": "Tata DoCoMo"
+      }
+    
+    ]
+  }
+  ,
+  {
+    "name": "WB, A&N",
+    "children": [
+   {
+        "subscriberbase": "2.058390719",
+        "name": "Aircel"
+      },
+      {
+        "subscriberbase": "1.675886789",
+        "name": "Bharti Airtel"
+      },
+      {
+        "subscriberbase": "0.6888894",
+        "name": "Vodafone"
+      },
+      {
+        "subscriberbase": "0.951387342",
+        "name": "Idea"
+      },
+      {
+        "subscriberbase": "13.76676509",
+        "name": "BSNL"
+      },
+      {
+        "subscriberbase": "1.704006687",
+        "name": "RCOM"
+      },
+      {
+        "subscriberbase": "12.25838545",
+        "name": "Tata DoCoMo"
+      }
+    
+    ]
+  }
+   ]
+}

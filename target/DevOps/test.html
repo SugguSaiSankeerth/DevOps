@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script src="js/datamaps.none.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+</head>
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.bar {
+  fill: steelblue;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.btn  {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.65%; /* Four links of equal widths */
+  text-align: center;
+  background-color: #f1f1f1
+}
+
+.btn:hover {background-color: #666;
+  color: white
+}
+
+.active {
+  background-color: #4CAF50;color: white
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Container */
+.container {
+  background-color: #fefefe;
+  height: 900px;
+  white-space: nowrap;
+}
+
+.map {
+  display: inline-block;
+  height: 100%;
+  width: 70%;
+}
+
+.barchart {
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  width: 30%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<body>
+  <h2>Choose A Year</h2>
+
+  <div id="myDIV">
+    <button class="btn 2010">2010</button>
+    <button class="btn 2012">2012</button>
+    <button class="btn 2013">2013</button>
+    <button class="btn 2014">2014</button>
+    <button class="btn 2015">2015</button>
+    <button class="btn 2016">2016</button>
+  </div>
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Spectrum Vizualization in : </p><p id="output"></p>
+      <div class="container">
+        <div id="myMap" class="map"></div>
+        <div id="myBarChart" class="barchart"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+  function indiamap(year)
+  {
+    var dataset = {};
+
+    var minValue = 100000;
+    var maxValue = 0;
+    var initialValue = 2011;
+
+	  var data ;
+	  $.ajax({
+
+			
+		    type: "get",
+		    url:  "webapi/Rest_Service/indiamap/"+year,
+		   // data    :jsondata,
+			dataType: "TEXT",
+		    success: function(data1){
+		     var obj=JSON.parse(data1);
+		      data =obj;
+		      console.log(year);
+		      console.log(obj);
+
+		      Object.keys(obj).forEach(function(key) {
+		        var temp = obj[key];
+		        var avg = temp["Average"];
+		        if(minValue>avg) {
+		          minValue = avg;
+		        }
+		        if(maxValue<avg) {
+		          maxValue = avg;
+		        }
+		      })
+
+		      var paletteScale = d3.scale.linear()
+		      .domain([minValue,maxValue])
+		      .range(["#EFEFFF","#02386F"]); // blue color
+
+		      Object.keys(obj).forEach(function(key) {
+		        var temp = obj[key];
+		        var state = temp["State"];
+		        dataset[state] = {};
+		        dataset[state]["fillColor"] = paletteScale(temp["Average"]);
+		        Object.keys(temp).forEach(function(inner_key) {
+		          if(inner_key.localeCompare("State")!=0) {
+		            dataset[state][inner_key] = temp[inner_key];
+		          }
+		        })
+		      })
+		           var map = new Datamap({
+		      element: document.getElementById('myMap'),
+		      scope: 'india',
+		      geographyConfig: {
+		        popupOnHover: true,
+		        highlightOnHover: true,
+		        borderColor: '#444',
+		        borderWidth: 0.5,
+		        dataUrl: 'data/india.topo.json',
+		        //dataJson: topoJsonData
+		        borderColor: '#DEDEDE',
+		        highlightBorderWidth: 2,
+		        // don't change color on mouse hover
+		        highlightFillColor: function(geo) {return geo['fillColor'] || '#F5F5F5';},
+		        // only change border
+		        highlightBorderColor: '#B7B7B7',
+		        // show desired information in tooltip
+		        popupTemplate: function(geo, data) {
+		          // don't show tooltip if country don't present in dataset
+		          if (!data) { return ; }
+		          // tooltip content
+		          //var domainArr = [];
+		          var obj = [];
+		          var arr = [];
+		          arr.push('<div class="hoverinfo">');
+		          arr.push('<strong>');
+		          arr.push(geo.properties.name);
+		          arr.push('</strong>');
+		          Object.keys(data).forEach(function(iter) {
+		            if(iter.localeCompare("fillColor")!=0 && iter.localeCompare("Average")!=0) {
+		              var tempArr = iter.split("_");
+		              var str = tempArr[1];
+		              str += " Mhz";
+		              //domainArr.push(str);
+		              obj.push({"y":data[iter]==null?0:data[iter], "label":str});
+		              arr.push('<br>'+str+': '+'<strong>'+data[iter]+'</strong>');
+		            }
+		          })
+		          arr.push('<br>'+'Average'+': '+'<strong>'+data["Average"]+'</strong>');
+		          //domainArr.push("Average");
+		          obj.push({"y":data["Average"], "label":"Average"});
+		          arr.push('</div>');
+
+		          renderChart(obj);
+
+		          var msg = arr.join('');
+		          //console.log(msg);
+
+		          return msg;
+		        }
+		      },
+		      fills: { defaultFill: '#F5F5F5' },
+		      data:dataset,
+		      setProjection: function (element) {
+		        var projection = d3.geo.mercator()
+		        .center([78.9629, 23.5937]) // always in [East Latitude, North Longitude]
+		        .scale(1000);
+		        var path = d3.geo.path().projection(projection);
+		        return { path: path, projection: projection };
+		      }
+		    }); 
+		    },
+		    error: function(data){
+		       	console.log("Failure!!!"+data);
+		       }
+		});
+ 
+
+    // Initialize the bargraph
+
+    function renderChart(obj) {
+      var chart = new CanvasJS.Chart("myBarChart", {
+      animationEnabled: true,
+
+      title:{
+        text: "Bargraph"
+      },
+      axisX:{
+        interval: 1,
+        title : "Frequency"
+      },
+      axisY2:{
+        interlacedColor: "rgba(1,77,101,.2)",
+        gridColor: "rgba(1,77,101,.1)",
+        title: "Value"
+      },
+      data: [{
+        type: "bar",
+        name: "Frequency",
+        axisYType: "secondary",
+        color: "#014D65",
+        dataPoints: obj
+        }]
+      });
+    chart.render();
+    }
+
+    // render map
+/*     var map = new Datamap({
+      element: document.getElementById('myMap'),
+      scope: 'india',
+      geographyConfig: {
+        popupOnHover: true,
+        highlightOnHover: true,
+        borderColor: '#444',
+        borderWidth: 0.5,
+        dataUrl: 'data/india.topo.json',
+        //dataJson: topoJsonData
+        borderColor: '#DEDEDE',
+        highlightBorderWidth: 2,
+        // don't change color on mouse hover
+        highlightFillColor: function(geo) {return geo['fillColor'] || '#F5F5F5';},
+        // only change border
+        highlightBorderColor: '#B7B7B7',
+        // show desired information in tooltip
+        popupTemplate: function(geo, data) {
+          // don't show tooltip if country don't present in dataset
+          if (!data) { return ; }
+          // tooltip content
+          //var domainArr = [];
+          var obj = [];
+          var arr = [];
+          arr.push('<div class="hoverinfo">');
+          arr.push('<strong>');
+          arr.push(geo.properties.name);
+          arr.push('</strong>');
+          Object.keys(data).forEach(function(iter) {
+            if(iter.localeCompare("fillColor")!=0 && iter.localeCompare("Average")!=0) {
+              var tempArr = iter.split("_");
+              var str = tempArr[1];
+              str += " Mhz";
+              //domainArr.push(str);
+              obj.push({"y":data[iter]==null?0:data[iter], "label":str});
+              arr.push('<br>'+str+': '+'<strong>'+data[iter]+'</strong>');
+            }
+          })
+          arr.push('<br>'+'Average'+': '+'<strong>'+data["Average"]+'</strong>');
+          //domainArr.push("Average");
+          obj.push({"y":data["Average"], "label":"Average"});
+          arr.push('</div>');
+
+          renderChart(obj);
+
+          var msg = arr.join('');
+          //console.log(msg);
+
+          return msg;
+        }
+      },
+      fills: { defaultFill: '#F5F5F5' },
+      data:dataset,
+      setProjection: function (element) {
+        var projection = d3.geo.mercator()
+        .center([78.9629, 23.5937]) // always in [East Latitude, North Longitude]
+        .scale(1000);
+        var path = d3.geo.path().projection(projection);
+        return { path: path, projection: projection };
+      }
+    }); */
+
+    map.legend();}
+
+
+    </script>
+
+    <script>
+    $('#MyModal').on('hidden.bs.modal', function () {
+      $(this).find('form').trigger('reset');
+    })
+  </script>
+
+  <script>
+
+  var modal = document.getElementById('myModal');
+
+  // Get the button that opens the modal
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+    d3.select("svg").remove();
+  }
+
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+        d3.select("svg").remove();
+    }
+  }
+
+  var header = document.getElementById("myDIV");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      if(current.length != 0)
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      var year = this.className.split(" ")[1];
+      modal.style.display = "block";
+      console.log(year)
+      document.getElementById('output').innerHTML = year;
+      indiamap(year)
+
+    });
+  }
+  </script>
+
+</body>
+
+</html>

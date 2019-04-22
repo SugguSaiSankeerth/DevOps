@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="js/jquery.min.js"></script>
+
+<!-- script language="JavaScript" type="text/javascript"> -->
+<script>
+var jsondata={
+        year: "2017"
+   };
+  var year="2017";
+console.log(jsondata);
+$.ajax({
+
+	
+    type: "get",
+    url:  "webapi/Rest_Service/indiamap/2015",
+    data    :jsondata,
+	dataType: "text",
+    success: function(data){
+     console.log("hereA");
+      
+     console.log("hereB");
+      
+    // document.getElementById("Testing").value = 
+     var json_data = JSON.parse(data);
+     console.log(json_data);
+    },
+    error: function(data){
+       	console.log("Failure!!!"+data);
+       }
+});
+</script>
+</head>
+<body>
+<div>
+<span id="test">ABC</span>
+</div>
+</body>
+
+</html>

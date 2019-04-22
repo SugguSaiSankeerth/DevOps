@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+   db:
+     image: projectmysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: 5555
+       MYSQL_DATABASE: spectrumdata
+       MYSQL_USER: root
+       
+   webapi:
+     depends_on:
+       - db
+     image: project 
+     ports:
+       - "8082:8080"
+     restart: always

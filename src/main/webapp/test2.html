@@ -19,12 +19,12 @@ $.ajax({
 	dataType: "text",
     success: function(data){
      console.log("hereA");
-      console.log(data);
+      
      console.log("hereB");
       
     // document.getElementById("Testing").value = 
-     var json_data = JSON.stringify(data);
-        
+     var json_data = JSON.parse(data);
+     console.log(json_data);
     },
     error: function(data){
        	console.log("Failure!!!"+data);

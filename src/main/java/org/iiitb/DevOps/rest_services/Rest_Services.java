@@ -92,8 +92,8 @@ public class Rest_Services {
 //		
 		Connection conn=DatabaseConnection.getConnection();
 		PreparedStatement preparedStatement = null;		
-		JSONArray indiamap_json_array = new JSONArray();
-//		
+		JSONObject indiamap_json_array = new JSONObject();
+		int count  = 0;
 		try {
 			String query = "select * from india_ppa_"+year;
 //			
@@ -104,13 +104,24 @@ public class Rest_Services {
 			ResultSetMetaData rsmd = rs.getMetaData();
 			while(rs.next()) {
 				JSONObject indiamap_json = new JSONObject();
-				for (int i = 1; i <= rsmd.getColumnCount(); i++) 
-					indiamap_json.put(rsmd.getColumnName(i),rs.getString(rsmd.getColumnName(i)));
+				for (int i = 1; i <= rsmd.getColumnCount(); i++)
+				{ 
+					if(rsmd.getColumnName(i).equals("State"))
+						indiamap_json.put(rsmd.getColumnName(i),rs.getString(rsmd.getColumnName(i)));
+					else 
+					{
+						if(rs.getString(rsmd.getColumnName(i)).equals(""))
+							indiamap_json.put(rsmd.getColumnName(i),JSONObject.NULL);
+						else
+							indiamap_json.put(rsmd.getColumnName(i),rs.getDouble(rsmd.getColumnName(i)));
+					}
+				}
 //				heatmap_json.put("country", rs.getString("country"));
 //				heatmap_json.put("band", rs.getString("band"));
 //				heatmap_json.put("value", rs.getString("value"));
 //				heatmap_json.put("year", rs.getString("year"));
-				indiamap_json_array.put(indiamap_json);
+				indiamap_json_array.put(Integer.toString(count) , indiamap_json);
+				count++;
 			}
 			
 		}catch (SQLException e) {

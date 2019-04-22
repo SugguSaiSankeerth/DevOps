@@ -155,38 +155,113 @@ body {font-family: Arial, Helvetica, sans-serif;}
     var maxValue = 0;
     var initialValue = 2011;
 
-    d3.json("data/india_ppa_v2.json", function(error, dat) {
-      var obj = dat[year];
-      console.log(year);
-      console.log(obj);
+	  var data ;
+	  $.ajax({
 
-      Object.keys(obj).forEach(function(key) {
-        var temp = obj[key];
-        var avg = temp["Average"];
-        if(minValue>avg) {
-          minValue = avg;
-        }
-        if(maxValue<avg) {
-          maxValue = avg;
-        }
-      })
+			
+		    type: "get",
+		    url:  "webapi/Rest_Service/indiamap/"+year,
+		   // data    :jsondata,
+			dataType: "TEXT",
+		    success: function(data1){
+		     var obj=JSON.parse(data1);
+		      data =obj;
+		      console.log(year);
+		      console.log(obj);
 
-      var paletteScale = d3.scale.linear()
-      .domain([minValue,maxValue])
-      .range(["#EFEFFF","#02386F"]); // blue color
+		      Object.keys(obj).forEach(function(key) {
+		        var temp = obj[key];
+		        var avg = temp["Average"];
+		        if(minValue>avg) {
+		          minValue = avg;
+		        }
+		        if(maxValue<avg) {
+		          maxValue = avg;
+		        }
+		      })
 
-      Object.keys(obj).forEach(function(key) {
-        var temp = obj[key];
-        var state = temp["State"];
-        dataset[state] = {};
-        dataset[state]["fillColor"] = paletteScale(temp["Average"]);
-        Object.keys(temp).forEach(function(inner_key) {
-          if(inner_key.localeCompare("State")!=0) {
-            dataset[state][inner_key] = temp[inner_key];
-          }
-        })
-      })
-    });
+		      var paletteScale = d3.scale.linear()
+		      .domain([minValue,maxValue])
+		      .range(["#EFEFFF","#02386F"]); // blue color
+
+		      Object.keys(obj).forEach(function(key) {
+		        var temp = obj[key];
+		        var state = temp["State"];
+		        dataset[state] = {};
+		        dataset[state]["fillColor"] = paletteScale(temp["Average"]);
+		        Object.keys(temp).forEach(function(inner_key) {
+		          if(inner_key.localeCompare("State")!=0) {
+		            dataset[state][inner_key] = temp[inner_key];
+		          }
+		        })
+		      })
+		           var map = new Datamap({
+		      element: document.getElementById('myMap'),
+		      scope: 'india',
+		      geographyConfig: {
+		        popupOnHover: true,
+		        highlightOnHover: true,
+		        borderColor: '#444',
+		        borderWidth: 0.5,
+		        dataUrl: 'data/india.topo.json',
+		        //dataJson: topoJsonData
+		        borderColor: '#DEDEDE',
+		        highlightBorderWidth: 2,
+		        // don't change color on mouse hover
+		        highlightFillColor: function(geo) {return geo['fillColor'] || '#F5F5F5';},
+		        // only change border
+		        highlightBorderColor: '#B7B7B7',
+		        // show desired information in tooltip
+		        popupTemplate: function(geo, data) {
+		          // don't show tooltip if country don't present in dataset
+		          if (!data) { return ; }
+		          // tooltip content
+		          //var domainArr = [];
+		          var obj = [];
+		          var arr = [];
+		          arr.push('<div class="hoverinfo">');
+		          arr.push('<strong>');
+		          arr.push(geo.properties.name);
+		          arr.push('</strong>');
+		          Object.keys(data).forEach(function(iter) {
+		            if(iter.localeCompare("fillColor")!=0 && iter.localeCompare("Average")!=0) {
+		              var tempArr = iter.split("_");
+		              var str = tempArr[1];
+		              str += " Mhz";
+		              //domainArr.push(str);
+		              obj.push({"y":data[iter]==null?0:data[iter], "label":str});
+		              arr.push('<br>'+str+': '+'<strong>'+data[iter]+'</strong>');
+		            }
+		          })
+		          arr.push('<br>'+'Average'+': '+'<strong>'+data["Average"]+'</strong>');
+		          //domainArr.push("Average");
+		          obj.push({"y":data["Average"], "label":"Average"});
+		          arr.push('</div>');
+
+		          renderChart(obj);
+
+		          var msg = arr.join('');
+		          //console.log(msg);
+
+		          return msg;
+		        }
+		      },
+		      fills: { defaultFill: '#F5F5F5' },
+		      data:dataset,
+		      setProjection: function (element) {
+		        var projection = d3.geo.mercator()
+		        .center([78.9629, 23.5937]) // always in [East Latitude, North Longitude]
+		        .scale(1000);
+		        var path = d3.geo.path().projection(projection);
+		        return { path: path, projection: projection };
+		      }
+		    }); 
+		    },
+		    error: function(data){
+		       	console.log("Failure!!!"+data);
+		       }
+		});
+ 
 
     // Initialize the bargraph
 
@@ -218,7 +293,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     }
 
     // render map
-    var map = new Datamap({
+/*     var map = new Datamap({
       element: document.getElementById('myMap'),
       scope: 'india',
       geographyConfig: {
@@ -278,7 +353,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
         var path = d3.geo.path().projection(projection);
         return { path: path, projection: projection };
       }
-    });
+    }); */
 
     map.legend();}
 

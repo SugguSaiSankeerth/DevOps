@@ -16,10 +16,10 @@ public class DatabaseConnection {
 //			Statement stmt;
 			
 			Class.forName("com.mysql.jdbc.Driver");			
-			String user = "mvscharan9";
-			String pass = "5555";
+			String user = "root";
+			String pass = "";
 			System.out.println("Connecting to database...");
-			conn = DriverManager.getConnection("jdbc:mysql://172.16.132.108:3306/spectrumdata?autoReconnect=true&useSSL=false",
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/spectrumdata?autoReconnect=true&useSSL=false",
 					user, pass);
 			System.out.println("Connections Success");
 //			stmt = conn.createStatement();

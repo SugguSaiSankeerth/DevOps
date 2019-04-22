@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('Build Database Docker'){
 			steps {
-				sh 'docker build -t projectmysql mysql.Dockerfile .'
+				sh 'docker build -t projectmysql -f mysql.Dockerfile .'
 			}
 		}
 		stage('Compose up'){

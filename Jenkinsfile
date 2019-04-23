@@ -73,7 +73,7 @@ pipeline {
 	post { 
         		always { 
             			echo 'Stopping Containers/Networks'
-            			sh 'docker-compose stop'
+            			sh 'docker-compose down'
         		}
     		}
 

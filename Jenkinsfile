@@ -1,6 +1,11 @@
 pipeline {
 	agent any
 	stages {
+		stage('mvs package to create .war'){
+			steps {
+				sh 'mvn package'
+			}
+		}
 		stage('Build Application Docker'){
 			steps {
 				sh 'docker build -t project .'

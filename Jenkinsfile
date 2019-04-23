@@ -25,13 +25,14 @@ pipeline {
 				sh 'echo "Hello World !"'
 				sh 'sleep 20'
 				sh 'npm install'
-				try{
-					sh 'npm run api-tests-production'
-					currentBuild.result = 'SUCCESS'
-				}
-				catch(Exception ex)
-				{
-					currentBuild.result = 'FAILURE'
+				script {
+					try {
+						sh 'npm run api-tests-production'
+						currentBuild.result = 'SUCCESS'
+					}
+					catch(Exception ex) {
+						currentBuild.result = 'FAILURE'
+					}
 				}
 			}
 		}

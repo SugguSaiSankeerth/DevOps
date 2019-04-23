@@ -15,7 +15,7 @@
 					"script": {
 						"type": "text/javascript",
 						"exec": [
-							"tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"tests[\"has Germany\"] = responseBody.has(\"Germany\");",
 							"",
 							"",
 							"",
@@ -27,7 +27,7 @@
 				}
 			],
 			"request": {
-				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/heatmap/2015",
+				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/treemap",
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -55,7 +55,7 @@
 				}
 			],
 			"request": {
-				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/indiamap/2015",
+				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/heatmap/2015",
 				"method": "GET",
 				"header": [],
 				"body": {},

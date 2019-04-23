@@ -1,6 +1,9 @@
 pipeline {
+	
 	agent any
+	
 	stages {
+		
 		stage('BUILD - .war') {
 			steps {
 				sh 'mvn package'
@@ -53,14 +56,18 @@ pipeline {
 
 		}
 
-		stage('PUBLISH to DockerHub') {
+		stage('PUBLISH to DockerHub') 
+		{
 
-	      steps 
-	      {
-	          withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
-	          sh 'docker push mvscharan9/spectrum_website:webimg'
-	          sh 'docker push mvscharan9/spectrum_website:mysqlimg'
-	        }
+		      steps 
+		      {
+		          withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
+		          sh 'docker push mvscharan9/spectrum_website:webimg'
+		          sh 'docker push mvscharan9/spectrum_website:mysqlimg'
+		        }
+			}
+		}
+
 	}
 
 	post { 

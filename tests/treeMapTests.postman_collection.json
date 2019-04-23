@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8083/DevOps/webapi/Rest_Service/treemap",
+			"name": "http://localhost:8084/DevOps/webapi/Rest_Service/treemap",
 			"event": [
 				{
 					"listen": "test",
@@ -21,7 +21,7 @@
 				}
 			],
 			"request": {
-				"url": "http://localhost:8083/DevOps/webapi/Rest_Service/treemap",
+				"url": "http://localhost:8084/DevOps/webapi/Rest_Service/treemap",
 				"method": "GET",
 				"header": [],
 				"body": {},

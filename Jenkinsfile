@@ -32,7 +32,7 @@ pipeline {
 						
 						script 
 						{
-							sh 'sleep 50'
+							sh 'sleep 60'
 							sh 'npm install'
 							try {
 								sh 'npm run api-tests-production'
@@ -43,11 +43,19 @@ pipeline {
 							}
 						}
 
-						sh 'docker-compose down'
+						sh 'docker-compose stop'
 					}
 				}
 
 			}
+
+			post { 
+        		always { 
+            			echo 'Removing Containers/Networks'
+            			sh 'docker-compose stop'
+        		}
+    		}
+
 		}
 	}
 

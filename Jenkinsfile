@@ -32,7 +32,7 @@ pipeline {
 						
 						script 
 						{
-							sh 'sleep 20'
+							sh 'sleep 30'
 							sh 'npm install'
 							try {
 								sh 'npm run api-tests-production'

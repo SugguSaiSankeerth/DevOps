@@ -14,5 +14,5 @@ services:
        - db
      image: test_project 
      ports:
-       - "8085:8080"
+       - "8086:8080"
      restart: always

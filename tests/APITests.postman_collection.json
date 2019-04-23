@@ -27,7 +27,7 @@
 				}
 			],
 			"request": {
-				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/treemap",
+				"url": "http://localhost:8086/DevOps/webapi/Rest_Service/treemap",
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -55,7 +55,7 @@
 				}
 			],
 			"request": {
-				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/heatmap/2015",
+				"url": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2015",
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -83,7 +83,7 @@
 				}
 			],
 			"request": {
-				"url": "http://localhost:8085/DevOps/webapi/Rest_Service/indiamap/2015",
+				"url": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2015",
 				"method": "GET",
 				"header": [],
 				"body": {},

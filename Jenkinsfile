@@ -22,7 +22,7 @@ pipeline {
 
 				stage('TEST - Setting up Test') {
 					steps {
-						sh 'docker-compose up -d'
+						sh 'docker-compose up'
 					}
 				}		
 

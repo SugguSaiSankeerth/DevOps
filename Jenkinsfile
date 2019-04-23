@@ -14,34 +14,39 @@ pipeline {
 			}
 		} 
 
-		stage('TEST - Setting up Test') {
-			steps {
-				sh 'docker-compose up -d'
-			}
-		}		
 
-		stage("TEST - Running Test") {
-			steps 
+		stage('TEST')
+		{
+			parallel
 			{
-				
-				script 
-				{
-					sh 'sleep 20'
-					sh 'npm install'
-					try {
-						sh 'npm run api-tests-production'
-						currentBuild.result = 'SUCCESS'
+
+				stage('TEST - Setting up Test') {
+					steps {
+						sh 'docker-compose up -d'
 					}
-					catch(Exception ex) {
-						currentBuild.result = 'FAILURE'
+				}		
+
+				stage("TEST - Running Test") {
+					steps 
+					{
+						
+						script 
+						{
+							sh 'sleep 20'
+							sh 'npm install'
+							try {
+								sh 'npm run api-tests-production'
+								currentBuild.result = 'SUCCESS'
+							}
+							catch(Exception ex) {
+								currentBuild.result = 'FAILURE'
+							}
+						}
+
+						sh 'docker-compose down'
 					}
 				}
-			}
-		}
 
-		stage('TEST - Finishing Test') {
-			steps {
-				sh 'docker-compose down'
 			}
 		}
 	}	

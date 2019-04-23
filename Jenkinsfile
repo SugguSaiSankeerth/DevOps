@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage('mvs package to create .war'){
+		stage('mvn package to create .war'){
 			steps {
 				sh 'mvn package'
 			}

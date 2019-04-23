@@ -56,8 +56,8 @@ pipeline {
 
 	post { 
         		always { 
-            			echo 'Removing Containers/Networks'
-            			sh 'docker-compose down'
+            			echo 'Stopping Containers/Networks'
+            			sh 'docker-compose stop'
         		}
     		}
 

@@ -9,8 +9,8 @@ pipeline {
 
 		stage('BUILD - Docker Images') {
 			steps {
-				sh 'docker build -t project .'
-				sh 'docker build -t projectmysql -f mysql.Dockerfile .'
+				sh 'docker build -t mvscharan9/spectrum_website:webimg .'
+				sh 'docker build -t mvscharan9/spectrum_website:mysqlimg -f mysql.Dockerfile .'
 			}
 		} 
 
@@ -52,6 +52,15 @@ pipeline {
 
 
 		}
+
+		stage('PUBLISH to DockerHub') {
+
+	      steps 
+	      {
+	          withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
+	          sh 'docker push mvscharan9/spectrum_website:webimg'
+	          sh 'docker push mvscharan9/spectrum_website:mysqlimg'
+	        }
 	}
 
 	post { 

@@ -1,6 +1,6 @@
 node {
 	
-	stage('Build') {
+	stage('BUILD') {
 		stage 'create .war'
 		sh 'mvn package'
 		
@@ -10,7 +10,7 @@ node {
 		stage 'build database docker'
 		sh 'docker build -t projectmysql -f mysql.Dockerfile .'
 	}
-	stage('Test') {
+	stage('TEST') {
 		
 		stage 'compose up'
 		sh 'docker-compose up -d'
@@ -18,7 +18,7 @@ node {
 
 		stage 'test'
 		sh 'echo "Hello World !"'
-		sh 'sleep 15'
+		sh 'sleep 20'
 		sh 'npm install'
 		try{
 			sh 'npm run api-tests-production'

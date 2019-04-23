@@ -26,7 +26,7 @@ pipeline {
 				
 				script 
 				{
-					sh 'until docker-compose exec webapi -c "select 1" > /dev/null 2>&1; do sleep 2; done'
+					sh 'until docker-compose exec spectrumwebsite_webapi_1 -c "select 1" > /dev/null 2>&1; do sleep 2; done'
 					sh 'npm install'
 					try {
 						sh 'npm run api-tests-production'

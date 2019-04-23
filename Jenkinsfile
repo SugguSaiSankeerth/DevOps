@@ -8,8 +8,13 @@ node {
 		stage 'build database docker'
 		sh 'docker build -t projectmysql -f mysql.Dockerfile .'
 	}
-	stage('Deploy') {
+	stage('Test') {
 		stage 'compose up'
-		sh 'docker-compose up'
+		sh 'docker-compose up -d'
+		stage 'test'
+		sh 'echo "Hello World !"'
+		sh 'sleep 3'
+		stage 'compose down'
+		sh 'docker-compose down'
 	}
 }

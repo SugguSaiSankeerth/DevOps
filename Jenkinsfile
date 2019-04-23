@@ -1,19 +1,15 @@
 node {
 	
-	stage('mvn package to create .war'){
+	stage('Build') {
+		stage 'create .war'
 		sh 'mvn package'
-	}
-		
-	stage('Build Application Docker'){
+		stage 'build application docker'
 		sh 'docker build -t project .'
-	}
-
-	stage('Build Database Docker'){
+		stage 'build database docker'
 		sh 'docker build -t projectmysql -f mysql.Dockerfile .'
 	}
-
-	stage('Compose up'){
+	stage('Deploy') {
+		stage 'compose up'
 		sh 'docker-compose up'
 	}
-	
 }

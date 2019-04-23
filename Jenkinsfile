@@ -1,25 +1,19 @@
-pipeline {
-	agent any
-	stages {
-		stage('mvn package to create .war'){
-			steps {
-				sh 'mvn package'
-			}
-		}
-		stage('Build Application Docker'){
-			steps {
-				sh 'docker build -t project .'
-			}
-		}
-		stage('Build Database Docker'){
-			steps {
-				sh 'docker build -t projectmysql -f mysql.Dockerfile .'
-			}
-		}
-		stage('Compose up'){
-			steps {
-				sh 'docker-compose up'
-			}
-		}
+node {
+	
+	stage('mvn package to create .war'){
+		sh 'mvn package'
 	}
+		
+	stage('Build Application Docker'){
+		sh 'docker build -t project .'
+	}
+
+	stage('Build Database Docker'){
+		sh 'docker build -t projectmysql -f mysql.Dockerfile .'
+	}
+
+	stage('Compose up'){
+		sh 'docker-compose up'
+	}
+	
 }

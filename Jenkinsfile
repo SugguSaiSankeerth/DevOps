@@ -21,11 +21,13 @@ pipeline {
 		}		
 
 		stage("TEST - Running Test") {
-			steps {
-				sh 'echo "Hello World !"'
-				sh 'sleep 20'
-				sh 'npm install'
-				script {
+			steps 
+			{
+				
+				script 
+				{
+					sh 'until docker-compose exec webapi -c "select 1" > /dev/null 2>&1; do sleep 2; done'
+					sh 'npm install'
 					try {
 						sh 'npm run api-tests-production'
 						currentBuild.result = 'SUCCESS'

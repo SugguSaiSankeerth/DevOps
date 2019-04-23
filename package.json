@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/treeMapTests.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
+    "api-tests-production": "newman run tests/APITests.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
   "author": "SRP",
   "dependencies": {

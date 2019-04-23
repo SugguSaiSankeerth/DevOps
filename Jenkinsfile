@@ -49,15 +49,17 @@ pipeline {
 
 			}
 
-			post { 
+
+
+		}
+	}
+
+	post { 
         		always { 
             			echo 'Removing Containers/Networks'
             			sh 'docker-compose stop'
         		}
     		}
-
-		}
-	}
 
 	
 }

@@ -43,15 +43,7 @@ pipeline
 						{
 							sh 'sleep 60'
 							sh 'npm install'
-							try 
-							{
-								sh 'npm run api-tests-production'
-								currentBuild.result = 'SUCCESS'
-							}
-							catch(Exception ex) 
-							{
-								currentBuild.result = 'FAILURE'
-							}
+							sh 'npm run api-tests-production'
 						}
 						sh 'docker-compose stop'
 					}
@@ -77,7 +69,7 @@ pipeline
 	{ 
 		always 
 		{ 
-    		echo "Post Build Actions"
+    		sh 'docker-compose stop'
 		}	
  	}
 }

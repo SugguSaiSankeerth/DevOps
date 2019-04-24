@@ -43,7 +43,17 @@ pipeline
 						{
 							sh 'sleep 60'
 							sh 'npm install'
-							sh 'npm run api-tests-production'
+							try 
+							{
+								sh 'npm run api-tests-production'
+								currentBuild.result = 'SUCCESS'
+							}
+							catch(Exception ex) 
+							{
+								currentBuild.result = 'ABORTED'
+								error('Test Cases Failed')
+
+							}
 						}
 						sh 'docker-compose stop'
 					}

@@ -47,15 +47,18 @@ pipeline
 							{
 								sh 'npm run api-tests-production'
 								currentBuild.result = 'SUCCESS'
+								sh 'docker-compose stop'
 							}
 							catch(Exception ex) 
 							{
 								currentBuild.result = 'ABORTED'
+								sh 'docker-compose stop'
 								error('Test Cases Failed')
 
 							}
 						}
-						sh 'docker-compose stop'
+
+						
 					}
 				}
 			}

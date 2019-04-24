@@ -79,7 +79,7 @@ pipeline
 
 		success
 		{
-			sh 'curl --location --request POST "http://localhost:4440/api/21/job/78f36898-e630-4db6-88f7-fc665d5f33e8/run" \
+			sh 'curl --location --request POST "http://localhost:4440/api/21/job/317d2ec7-799f-4005-8352-cc233aeabb42/run" \
 	  --header "Accept: application/json" \
 	  --header "X-Rundeck-Auth-Token: qIC6nrPc8Z0lObKmzcfA0OmKu8rmP4fI" \
 	  --header "Content-Type: application/json" \

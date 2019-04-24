@@ -77,8 +77,7 @@ pipeline
 	{ 
 		always 
 		{ 
-    		echo 'Stopping Containers/Networks'
-    		sh 'docker-compose stop'
+    		echo "Post Build Actions"
 		}	
  	}
 }

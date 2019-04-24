@@ -85,19 +85,6 @@ pipeline
     		sh 'docker-compose stop'
 		}
 
-		success
-		{
-			script 
-			{
-		    	step([$class: "RundeckNotifier",
-			          includeRundeckLogs: true,
-			          jobId: "1966eb5f-f314-49d5-bd7e-3494d4a8a669"
-			          rundeckInstance: "rundeck",
-			          shouldFailTheBuild: true,
-			          shouldWaitForRundeckJob: true,
-			          tags: "",
-			          tailLog: true])
-			}
-		}		
+			
  	}
 }

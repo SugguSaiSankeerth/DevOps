@@ -70,15 +70,5 @@ pipeline
 	      		}
 			}
 		}
-
 	}
-
-	post 
-	{ 
-		always 
-		{ 
-    		echo 'Stopping Containers/Networks'
-    		sh 'docker-compose stop'
-		}	
- 	}
 }

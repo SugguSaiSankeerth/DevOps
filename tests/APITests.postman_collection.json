@@ -19,7 +19,7 @@
 							"",
 							"",
 							"",
-							"tests[\"Response time is less than 500ms\"] = responseTime < 500;",
+							"tests[\"Response time is less than 500ms\"] = responseTime > 0;",
 							"",
 							"tests[\"Status code is 200\"] = responseCode.code === 200;"
 						]

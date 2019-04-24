@@ -1,17 +1,22 @@
-pipeline {
-	
+pipeline 
+{
 	agent any
 	
-	stages {
+	stages 
+	{
 		
-		stage('BUILD - .war') {
-			steps {
+		stage('BUILD - .war') 
+		{
+			steps 
+			{
 				sh 'mvn package'
 			}
 		}
 
-		stage('BUILD - Docker Images') {
-			steps {
+		stage('BUILD - Docker Images') 
+		{
+			steps 
+			{
 				sh 'docker build -t mvscharan9/spectrum_website:webimg .'
 				sh 'docker build -t mvscharan9/spectrum_website:mysqlimg -f mysql.Dockerfile .'
 			}
@@ -22,60 +27,58 @@ pipeline {
 		{
 			parallel
 			{
-
-				stage('TEST - Setting up Test') {
-					steps {
+				stage('TEST - Setting up Test') 
+				{
+					steps 
+					{
 						sh 'docker-compose up'
 					}
 				}		
 
-				stage("TEST - Running Test") {
+				stage("TEST - Running Test") 
+				{
 					steps 
-					{
-						
+					{	
 						script 
 						{
 							sh 'sleep 60'
 							sh 'npm install'
-							try {
+							try 
+							{
 								sh 'npm run api-tests-production'
 								currentBuild.result = 'SUCCESS'
 							}
-							catch(Exception ex) {
+							catch(Exception ex) 
+							{
 								currentBuild.result = 'FAILURE'
 							}
 						}
-
 						sh 'docker-compose stop'
 					}
 				}
-
 			}
-
-
-
 		}
 
 		stage('PUBLISH to DockerHub') 
 		{
-
-		      steps 
-		      {
-		          withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
-		          sh 'docker push mvscharan9/spectrum_website:webimg'
-		          sh 'docker push mvscharan9/spectrum_website:mysqlimg'
-		        }
+		    steps 
+		    {
+	        	withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) 
+	        	{
+	        		sh 'docker push mvscharan9/spectrum_website:webimg'
+	        		sh 'docker push mvscharan9/spectrum_website:mysqlimg'
+	      		}
 			}
 		}
 
 	}
 
-	post { 
-        		always { 
-            			echo 'Stopping Containers/Networks'
-            			sh 'docker-compose stop'
-        		}
-    		}
-
-	
+	post 
+	{ 
+		always 
+		{ 
+    		echo 'Stopping Containers/Networks'
+    		sh 'docker-compose stop'
+		}	
+ 	}
 }

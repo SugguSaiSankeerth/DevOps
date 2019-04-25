@@ -74,7 +74,7 @@ pipeline
 	{ 
 		always 
 		{ 
-    		sh 'docker-compose stop'
+    		sh 'ls'
 		}
 
 		success

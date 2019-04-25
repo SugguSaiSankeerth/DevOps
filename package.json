@@ -1,0 +1,15 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/APITests.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
+  },
+  "author": "SRP",
+  "dependencies": {
+    "newman": "^3.5.2"
+  }
+}

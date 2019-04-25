@@ -1,0 +1,1118 @@
+{
+	"info": {
+		"_postman_id": "43e1c40d-a373-4538-bbd9-f126c1c7b2d3",
+		"name": "APITests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "treeMapTests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "972da3e5-6ecb-4997-a896-afe8d0a05ae5",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has suregion\"] = responseBody.has(\"subregion\") ;",
+							"tests[\"has region\"]=responseBody.has(\"region\");",
+							"tests[\"has key\"] = responseBody.has(\"key\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"pm.test(\"test years\", function () {",
+							"tests[\"has 2011\"] = responseBody.has(\"2011\") ;",
+							"tests[\"has 2012\"]=responseBody.has(\"2012\");",
+							"tests[\"has 2013\"] = responseBody.has(\"2013\");",
+							"tests[\"has 2014\"] = responseBody.has(\"2014\");",
+							"tests[\"has 2015\"] = responseBody.has(\"2015\");",
+							"tests[\"has 2016\"] = responseBody.has(\"2016\");",
+							"tests[\"has 2017\"] = responseBody.has(\"2017\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.subregion==\"Italy\")",
+							"        {",
+							"            if(obj.key==\"1500.0 MHZ\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/treemap",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"treemap"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2015Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "04642b12-b9bb-4bd4-bb22-1570b3e7c764",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"tests[\"band 1800\"] = responseBody.has(\"1800\");",
+							"tests[\"country Brazil\"] = responseBody.has(\"Brazil\");",
+							"tests[\"value 0.0\"] = responseBody.has(\"0.0\");",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2015",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2015"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indiaMap2015Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "51c6e281-c576-4ff9-bfb8-0ba5139ac8ad",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has 2015_800\"] = responseBody.has(\"2015_800\") ;",
+							"tests[\"has state\"]=responseBody.has(\"State\");",
+							"tests[\"has 2015_900\"] = responseBody.has(\"2015_900\");",
+							"tests[\"has Average\"] = responseBody.has(\"Average\");",
+							"tests[\"has 2015_1800\"] = responseBody.has(\"2015_1800\");",
+							"tests[\"has 2015_2100\"] = responseBody.has(\"2015_2100\");",
+							"});",
+							"",
+							"",
+							"// tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    pm.expect(jsonData[\"0\"][\"State\"]).to.equal(\"AP\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2015",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"indiamap",
+						"2015"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2011Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "830dc580-3251-456e-a57e-bacfa850c3bc",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2011\"] = responseBody.has(\"2011\");",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2011",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2011"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2012Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b4b89a9d-16f1-4539-89d2-c15ea93b3e09",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2012\"] = responseBody.has(\"2012\");",
+							"tests[\"band 1800\"] = responseBody.has(\"1800\");",
+							"tests[\"country Brazil\"] = responseBody.has(\"Brazil\");",
+							"tests[\"value 0.0\"] = responseBody.has(\"0.0\");",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2012",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2012"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2013Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "28818c83-8594-40f8-9161-5f41ee0c18ec",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2013\"] = responseBody.has(\"2013\");",
+							"tests[\"band 1800\"] = responseBody.has(\"1800\");",
+							"tests[\"country Brazil\"] = responseBody.has(\"Brazil\");",
+							"tests[\"value 0.0\"] = responseBody.has(\"0.0\");",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2013",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2013"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2014Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "15ea6824-8e35-401a-a35e-6643408142ba",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2014\"] = responseBody.has(\"2014\");",
+							"tests[\"band 1800\"] = responseBody.has(\"1800\");",
+							"tests[\"country Brazil\"] = responseBody.has(\"Brazil\");",
+							"tests[\"value 0.0\"] = responseBody.has(\"0.0\");",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2014",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2014"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2016Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f17dc521-c9d7-418f-afe5-db9b6a675908",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2016\"] = responseBody.has(\"2016\");",
+							"tests[\"band 1800\"] = responseBody.has(\"1800\");",
+							"tests[\"country Brazil\"] = responseBody.has(\"Brazil\");",
+							"tests[\"value 0.0\"] = responseBody.has(\"0.0\");",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2016",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2016"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "heatMap2017Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fa52a04a-0e47-4729-827b-035c773773df",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has country\"] = responseBody.has(\"country\") ;",
+							"tests[\"has year\"]=responseBody.has(\"year\");",
+							"tests[\"has band\"] = responseBody.has(\"band\");",
+							"tests[\"has value\"] = responseBody.has(\"value\");",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"year 2017\"] = responseBody.has(\"2017\");",
+							"tests[\"band 1800\"] = responseBody.has(\"1800\");",
+							"tests[\"country Brazil\"] = responseBody.has(\"Brazil\");",
+							"tests[\"value 0.0\"] = responseBody.has(\"0.0\");",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"pm.test(\"test random columns 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Australia\")",
+							"        {",
+							"            if(obj.band==\"900\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});",
+							"",
+							"pm.test(\"test random columns 2\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    for(var i=0;i<jsonData.length;i++)",
+							"    {",
+							"        var obj=jsonData[i];",
+							"        if(obj.country==\"Bulgaria\")",
+							"        {",
+							"            if(obj.band==\"700\")",
+							"            {",
+							"                testflag=testflag+1;",
+							"            }",
+							"            // pm.expect(obj.key).to.eql(\"1800.0 MHZ\");",
+							"        }",
+							"    }",
+							"    pm.expect(testflag).to.be.above(0);",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/heatmap/2017",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"heatmap",
+						"2017"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indiaMap2012Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2dff315f-9c21-49b0-bfd6-bbb0e3d271f5",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"// tests[\"has 2012_800\"] = responseBody.has(\"2012_800\") ;",
+							"tests[\"has state\"]=responseBody.has(\"State\");",
+							"// tests[\"has 2012_900\"] = responseBody.has(\"2012_900\");",
+							"tests[\"has Average\"] = responseBody.has(\"Average\");",
+							"tests[\"has 2012_1800\"] = responseBody.has(\"2012_1800\");",
+							"// tests[\"has 2012_2100\"] = responseBody.has(\"2012_2100\");",
+							"});",
+							"",
+							"",
+							"// tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    pm.expect(jsonData[\"0\"][\"State\"]).to.equal(\"AP\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2012",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"indiamap",
+						"2012"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indiaMap2013Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3f2ae6ac-5c45-46dd-a773-e593a129c2cf",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has 2013_800\"] = responseBody.has(\"2013_800\") ;",
+							"tests[\"has state\"]=responseBody.has(\"State\");",
+							"// tests[\"has 2015_900\"] = responseBody.has(\"2015_900\");",
+							"tests[\"has Average\"] = responseBody.has(\"Average\");",
+							"// tests[\"has 2015_1800\"] = responseBody.has(\"2015_1800\");",
+							"// tests[\"has 2015_2100\"] = responseBody.has(\"2015_2100\");",
+							"});",
+							"",
+							"",
+							"// tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    pm.expect(jsonData[\"0\"][\"State\"]).to.equal(\"AP\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2013",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"indiamap",
+						"2013"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indiaMap2014Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bfa2e8a0-82e2-4a18-b67f-a2a5d08ba58e",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"// tests[\"has 2015_800\"] = responseBody.has(\"2013_800\") ;",
+							"tests[\"has state\"]=responseBody.has(\"State\");",
+							"tests[\"has 2014_900\"] = responseBody.has(\"2014_900\");",
+							"tests[\"has Average\"] = responseBody.has(\"Average\");",
+							"tests[\"has 2014_1800\"] = responseBody.has(\"2014_1800\");",
+							"// tests[\"has 2015_2100\"] = responseBody.has(\"2015_2100\");",
+							"});",
+							"",
+							"",
+							"// tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    pm.expect(jsonData[\"0\"][\"State\"]).to.equal(\"AP\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2014",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"indiamap",
+						"2014"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indiaMap2016Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9bc9d89c-42bf-422a-bfda-349546d69b92",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"// tests[\"has 2016_800\"] = responseBody.has(\"2013_800\") ;",
+							"tests[\"has state\"]=responseBody.has(\"State\");",
+							"tests[\"has 2016_900\"] = responseBody.has(\"2016_900\");",
+							"tests[\"has Average\"] = responseBody.has(\"Average\");",
+							"tests[\"has 2016_1800\"] = responseBody.has(\"2016_1800\");",
+							"tests[\"has 2016_2100\"] = responseBody.has(\"2016_2100\");",
+							"tests[\"has 2016_2100\"] = responseBody.has(\"2016_2300\");",
+							"tests[\"has 2016_2100\"] = responseBody.has(\"2016_2500\");",
+							"",
+							"});",
+							"",
+							"",
+							"// tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    pm.expect(jsonData[\"0\"][\"State\"]).to.equal(\"AP\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2016",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"indiamap",
+						"2016"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indiaMap2010Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3dfcfb8d-474f-4c07-88d3-b9deedd3fb6a",
+						"exec": [
+							"pm.test(\"test columns\", function () {",
+							"tests[\"has 2010_700\"] = responseBody.has(\"2010_700\") ;",
+							"tests[\"has state\"]=responseBody.has(\"State\");",
+							"// tests[\"has 2016_900\"] = responseBody.has(\"2016_900\");",
+							"tests[\"has Average\"] = responseBody.has(\"Average\");",
+							"// tests[\"has 2016_1800\"] = responseBody.has(\"2016_1800\");",
+							"tests[\"has 2010_2100\"] = responseBody.has(\"2010_2100\");",
+							"// tests[\"has 2016_2100\"] = responseBody.has(\"2016_2300\");",
+							"// tests[\"has 2016_2100\"] = responseBody.has(\"2016_2500\");",
+							"",
+							"});",
+							"",
+							"",
+							"// tests[\"year 2015\"] = responseBody.has(\"2015\");",
+							"",
+							"",
+							"",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"",
+							"pm.test(\"test random columns\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var testflag=0;",
+							"    pm.expect(jsonData[\"0\"][\"State\"]).to.equal(\"AP\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8086/DevOps/webapi/Rest_Service/indiamap/2010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"DevOps",
+						"webapi",
+						"Rest_Service",
+						"indiamap",
+						"2010"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

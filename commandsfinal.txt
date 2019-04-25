@@ -1,0 +1,50 @@
+ 1998  mysql -u root -p
+ 1999  cd sem8/devops/project/
+ 2000  ls
+ 2001  cd DevOps/
+ 2002  ls
+ 2003  vim Dockerfile
+ 2004  docker build -t project .
+ 2005  sudo docker build -t project .
+ 2006  vim Dockerfile 
+ 2007  sudo docker build -t project .
+ 2008  sudo docker run -p 8081:8080 -it project
+ 2009  subl docker-compose.yml
+ 2010  ls
+ 2011  sudo docker build -t projectmysql -f mysql.Dockerfile .
+ 2012  docker images
+ 2013  sudo docker images
+ 2014  mvn package
+ 2015  sudo docker build -t project .
+ 2016  sudo docker-compose
+ 2017  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 2018  sudo chmod +x /usr/local/bin/docker-compose
+ 2019  sudo docker-compose
+ 2020  ls
+ 2021  sudo docker-compose up
+ 2022  sudo docker images
+ 2023  sudo docker-compose up --build
+ 2024  sudo docker build -t projectmysql -f mysql.Dockerfile .
+ 2025  sudo docker-compose up
+ 2026  sudo docker build -t projectmysql -f mysql.Dockerfile .
+ 2027  sudo docker-compose up
+ 2028  sudo docker-compose rm
+ 2029  sudo docker volumes
+ 2030  sudo docker volumes list
+ 2031  sudo docker volumes ls
+ 2032  sudo docker volume ls
+ 2033  sudo docker volume rm 2e04d25d877e4a19da96a66decfb2d65f1e1fdc5f389244f3ce0eaf9451525fd c05185efcd41661260eed1ddb8e32eaf0988757ffbb46b8ae13bfc18396882d8
+ 2034  sudo docker-compose up
+ 2035  sudo docker build -t projectmysql -f mysql.Dockerfile .
+ 2036  sudo docker-compose up
+ 2037  sudo docker-compose rm -f
+ 2038  sudo docker-compose up
+ 2039  sudo docker-compose rm -f
+ 2040  sudo docker-compose up
+ 2041  history
+ 2042  history tail
+ 2043  history tail 20
+ 2044  tail history 10
+ 2045  history | tail -n 20
+ 2046  history | tail -n 50
+ 2047  history | tail -n 50 > commandsfinal.txt

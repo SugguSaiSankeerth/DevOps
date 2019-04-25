@@ -1,0 +1,155 @@
+Circle,State,800 Mhz,1800 Mhz,2100 Mhz,2300 Mhz,2500 Mhz
+Andhra Pradesh,Tata Teleservices Ltd.,0,2.4,0,0,0
+Andhra Pradesh,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Andhra Pradesh,Bharti Airtel Ltd.,0,0,0,10,0
+Andhra Pradesh,Idea Cellular Ltd.,0,0,0,0,10
+Andhra Pradesh,Vodafone India Ltd.,0,0,0,0,0
+Andhra Pradesh,Aircel Ltd.,0,0,0,0,0
+Andhra Pradesh,Reliance Communications Ltd.,0,0,0,0,0
+Assam,Tata Teleservices Ltd.,0,0,0,0,0
+Assam,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Assam,Bharti Airtel Ltd.,0,3.8,0,10,0
+Assam,Idea Cellular Ltd.,0,5,0,0,10
+Assam,Vodafone India Ltd.,0,7,0,0,10
+Assam,Aircel Ltd.,0,0,0,0,0
+Assam,Reliance Communications Ltd.,0,0,0,0,0
+Bihar,Tata Teleservices Ltd.,0,0,0,0,0
+Bihar,Reliance Jio Infocom Ltd.,0,5,0,10,0
+Bihar,Bharti Airtel Ltd.,0,0,5,10,0
+Bihar,Idea Cellular Ltd.,0,5,5,0,10
+Bihar,Vodafone India Ltd.,0,0,0,0,0
+Bihar,Aircel Ltd.,0,1.6,0,0,0
+Bihar,Reliance Communications Ltd.,0,0,0,0,0
+Delhi,Tata Teleservices Ltd.,0,0,0,0,0
+Delhi,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Delhi,Bharti Airtel Ltd.,0,0,5,10,0
+Delhi,Idea Cellular Ltd.,0,0,0,0,0
+Delhi,Vodafone India Ltd.,0,2,0,0,0
+Delhi,Aircel Ltd.,0,0,0,0,0
+Delhi,Reliance Communications Ltd.,0,0,0,0,0
+Gujarat,Tata Teleservices Ltd.,0,0,0,0,0
+Gujarat,Reliance Jio Infocom Ltd.,5,0,0,10,0
+Gujarat,Bharti Airtel Ltd.,0,0,0,10,0
+Gujarat,Idea Cellular Ltd.,0,8.4,0,0,10
+Gujarat,Vodafone India Ltd.,0,3,0,0,20
+Gujarat,Aircel Ltd.,0,0,0,0,0
+Gujarat,Reliance Communications Ltd.,0,0,0,0,0
+Haryana,Tata Teleservices Ltd.,0,0,0,0,0
+Haryana,Reliance Jio Infocom Ltd.,0,1,0,0,0
+Haryana,Bharti Airtel Ltd.,0,1.6,0,0,0
+Haryana,Idea Cellular Ltd.,0,4.2,0,0,10
+Haryana,Vodafone India Ltd.,0,0,5,0,10
+Haryana,Aircel Ltd.,0,0,0,0,0
+Haryana,Reliance Communications Ltd.,0,0,0,0,0
+Himachal Pradesh,Tata Teleservices Ltd.,0,0,0,0,0
+Himachal Pradesh,Reliance Jio Infocom Ltd.,0,5,0,10,0
+Himachal Pradesh,Bharti Airtel Ltd.,0,0,0,10,0
+Himachal Pradesh,Idea Cellular Ltd.,0,0.6,0,0,10
+Himachal Pradesh,Vodafone India Ltd.,0,0,0,0,0
+Himachal Pradesh,Aircel Ltd.,0,0,0,0,0
+Himachal Pradesh,Reliance Communications Ltd.,0,0,0,0,0
+J&K,Tata Teleservices Ltd.,0,0,0,0,0
+J&K,Reliance Jio Infocom Ltd.,0,7.2,0,0,0
+J&K,Bharti Airtel Ltd.,0,2.4,5,0,0
+J&K,Idea Cellular Ltd.,0,5,0,0,10
+J&K,Vodafone India Ltd.,0,0,0,0,0
+J&K,Aircel Ltd.,0,0,0,0,0
+J&K,Reliance Communications Ltd.,0,5,0,0,0
+Karnataka,Tata Teleservices Ltd.,0,0,0,0,0
+Karnataka,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Karnataka,Bharti Airtel Ltd.,0,0,0,10,0
+Karnataka,Idea Cellular Ltd.,0,0,0,0,0
+Karnataka,Vodafone India Ltd.,0,0,0,0,0
+Karnataka,Aircel Ltd.,0,0,0,0,0
+Karnataka,Reliance Communications Ltd.,0,0,0,0,0
+Kerala,Tata Teleservices Ltd.,0,0,0,0,0
+Kerala,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Kerala,Bharti Airtel Ltd.,0,0,5,0,0
+Kerala,Idea Cellular Ltd.,0,0,0,10,10
+Kerala,Vodafone India Ltd.,0,3.75,0,0,10
+Kerala,Aircel Ltd.,0,0,0,0,0
+Kerala,Reliance Communications Ltd.,0,0,0,0,0
+Kolkata,Tata Teleservices Ltd.,0,0,0,0,0
+Kolkata,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Kolkata,Bharti Airtel Ltd.,0,2,0,10,0
+Kolkata,Idea Cellular Ltd.,0,0,0,0,0
+Kolkata,Vodafone India Ltd.,0,2,0,0,20
+Kolkata,Aircel Ltd.,0,0,0,0,0
+Kolkata,Reliance Communications Ltd.,0,0,0,0,0
+MP,Tata Teleservices Ltd.,0,0,0,0,0
+MP,Reliance Jio Infocom Ltd.,0,0,0,10,0
+MP,Bharti Airtel Ltd.,0,0,0,0,0
+MP,Idea Cellular Ltd.,0,4.6,0,10,20
+MP,Vodafone India Ltd.,0,0,0,0,0
+MP,Aircel Ltd.,0,0,0,0,0
+MP,Reliance Communications Ltd.,0,0,0,0,0
+Maharashtra,Tata Teleservices Ltd.,0,5,0,0,0
+Maharashtra,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Maharashtra,Bharti Airtel Ltd.,0,5,0,0,0
+Maharashtra,Idea Cellular Ltd.,0,2,0,10,10
+Maharashtra,Vodafone India Ltd.,0,0,5,0,20
+Maharashtra,Aircel Ltd.,0,0,0,0,0
+Maharashtra,Reliance Communications Ltd.,0,0,0,0,0
+Mumbai,Tata Teleservices Ltd.,0,5,0,0,0
+Mumbai,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Mumbai,Bharti Airtel Ltd.,0,0,0,10,0
+Mumbai,Idea Cellular Ltd.,0,0,5,0,0
+Mumbai,Vodafone India Ltd.,0,0,0,0,20
+Mumbai,Aircel Ltd.,0,0,0,0,0
+Mumbai,Reliance Communications Ltd.,0,0,0,0,0
+North East,Tata Teleservices Ltd.,0,0,0,0,0
+North East,Reliance Jio Infocom Ltd.,0,0,0,10,0
+North East,Bharti Airtel Ltd.,0,1.4,0,10,0
+North East,Idea Cellular Ltd.,0,0,0,0,10
+North East,Vodafone India Ltd.,0,7.8,0,0,10
+North East,Aircel Ltd.,0,0,0,0,0
+North East,Reliance Communications Ltd.,0,0,0,0,0
+Odisha,Tata Teleservices Ltd.,0,0,0,0,0
+Odisha,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Odisha,Bharti Airtel Ltd.,0,0,0,10,0
+Odisha,Idea Cellular Ltd.,0,0,0,0,10
+Odisha,Vodafone India Ltd.,0,0,5,0,10
+Odisha,Aircel Ltd.,0,0,0,0,0
+Odisha,Reliance Communications Ltd.,0,0,0,0,0
+Punjab,Tata Teleservices Ltd.,0,0,0,0,0
+Punjab,Reliance Jio Infocom Ltd.,3.75,5.2,0,0,0
+Punjab,Bharti Airtel Ltd.,0,0.8,0,0,0
+Punjab,Idea Cellular Ltd.,0,2,0,0,0
+Punjab,Vodafone India Ltd.,0,3,5,0,10
+Punjab,Aircel Ltd.,0,0,0,0,0
+Punjab,Reliance Communications Ltd.,0,0,0,0,0
+Rajasthan,Tata Teleservices Ltd.,0,0,0,0,0
+Rajasthan,Reliance Jio Infocom Ltd.,5,0,0,0,0
+Rajasthan,Bharti Airtel Ltd.,0,1.8,5,0,0
+Rajasthan,Idea Cellular Ltd.,0,5,5,0,10
+Rajasthan,Vodafone India Ltd.,0,4.2,5,0,10
+Rajasthan,Aircel Ltd.,0,0,0,0,0
+Rajasthan,Reliance Communications Ltd.,0,0,0,0,0
+Tamil Nadu. Chennai,Tata Teleservices Ltd.,0,0,0,0,0
+Tamil Nadu. Chennai,Reliance Jio Infocom Ltd.,0,0,0,10,0
+Tamil Nadu. Chennai,Bharti Airtel Ltd.,0,0,0,10,0
+Tamil Nadu. Chennai,Idea Cellular Ltd.,0,0,0,0,0
+Tamil Nadu. Chennai,Vodafone India Ltd.,0,0,10,0,0
+Tamil Nadu. Chennai,Aircel Ltd.,0,0,0,0,0
+Tamil Nadu. Chennai,Reliance Communications Ltd.,0,0,0,0,0
+UP(E),Tata Teleservices Ltd.,0,0,0,0,0
+UP(E),Reliance Jio Infocom Ltd.,1.25,3.4,0,0,0
+UP(E),Bharti Airtel Ltd.,0,0,0,0,0
+UP(E),Idea Cellular Ltd.,0,0,5,0,10
+UP(E),Vodafone India Ltd.,0,2,5,0,10
+UP(E),Aircel Ltd.,0,0,0,0,0
+UP(E),Reliance Communications Ltd.,0,0,0,0,0
+UP(W),Tata Teleservices Ltd.,0,0,0,0,0
+UP(W),Reliance Jio Infocom Ltd.,0,5,0,0,0
+UP(W),Bharti Airtel Ltd.,0,0,0,0,0
+UP(W),Idea Cellular Ltd.,0,7.8,0,0,10
+UP(W),Vodafone India Ltd.,0,2.4,0,0,10
+UP(W),Aircel Ltd.,0,0,0,0,0
+UP(W),Reliance Communications Ltd.,0,0,0,0,0
+"WB, A&N",Tata Teleservices Ltd.,0,0,0,0,0
+"WB, A&N",Reliance Jio Infocom Ltd.,0,5,0,10,0
+"WB, A&N",Bharti Airtel Ltd.,0,0,0,10,0
+"WB, A&N",Idea Cellular Ltd.,0,5,0,0,10
+"WB, A&N",Vodafone India Ltd.,0,7.8,0,0,10
+"WB, A&N",Aircel Ltd.,0,0,0,0,0
+"WB, A&N",Reliance Communications Ltd.,0,0,0,0,0

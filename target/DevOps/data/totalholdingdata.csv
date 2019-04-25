@@ -1,0 +1,215 @@
+LSA,Operator,Paired Spectrum,Unpaired Spectrum
+Andhra Pradesh,Aircel,9.4,10
+Andhra Pradesh,Bharti Airtel,34,0
+Andhra Pradesh,BSNL/ MTNL,18.75,10
+Andhra Pradesh,Idea Cellular,24,0
+Andhra Pradesh,Reliance Comm,9.4,0
+Andhra Pradesh,Reliance Jio ,5.8,10
+Andhra Pradesh,Tata DoCoMo,18.29,0
+Andhra Pradesh,Telewings,6.4,0
+Andhra Pradesh,Vodafone Essar,6.8,0
+Assam,Aircel,11.2,10
+Assam,Bharti Airtel,18.65,0
+Assam,BSNL/ MTNL,17.5,10
+Assam,Idea Cellular,5,0
+Assam,Reliance Comm,18.62,0
+Assam,Reliance Jio,10.32,10
+Assam,Tata DoCoMo,4.4,0
+Assam,Vodafone Essar,11.9,0
+Assam,Telewings,6,0
+Bihar,Aircel,9.4,10
+Bihar,Bharti Airtel,15.8,0
+Bihar,BSNL/ MTNL,17.5,10
+Bihar,Idea Cellular,5.65,0
+Bihar,Reliance Comm,18,0
+Bihar,Reliance Jio,4.92,10
+Bihar,Stel,5,0
+Bihar,Tata DoCoMo,8.15,0
+Bihar,Telewings,7.2,0
+Bihar,Videocon,5,0
+Bihar,Vodafone Essar,6.9,0
+Bihar,Tikona,0,10
+Delhi,Aircel,4.4,0
+Delhi,Bharti Airtel,28,0
+Delhi,BSNL/ MTNL,21.15,10
+Delhi,Idea Cellular,13.6,0
+Delhi,Reliance Comm,14.4,0
+Delhi,Reliance Jio,5.4,10
+Delhi,Sistema Shyam,3.75,0
+Delhi,Tata DoCoMo,6.23,0
+Delhi,Vodafone Essar,28,0
+Delhi,Qualcomm/ Airtel,0,10
+Gujarat,Aircel,4.4,0
+Gujarat,Bharti Airtel,6.2,0
+Gujarat,BSNL/ MTNL,14.9,10
+Gujarat,Idea Cellular,17.8,0
+Gujarat,Reliance Comm,14.32,0
+Gujarat,Reliance Jio,10.92,10
+Gujarat,Sistema Shyam,3.75,0
+Gujarat,Tata DoCoMo,13.15,0
+Gujarat,Telewings,5,0
+Gujarat,Videocon,5,0
+Gujarat,Vodafone Essar,28.6,0
+Gujarat,Tikona,0,10
+Haryana,Aircel,4.4,0
+Haryana,Bharti Airtel,14.6,0
+Haryana,BSNL/ MTNL,17.5,10
+Haryana,Idea Cellular,23.2,0
+Haryana,Reliance Comm,9.98,0
+Haryana,Reliance Jio,8.92,10
+Haryana,Tata DoCoMo,15.63,0
+Haryana,Videocon,5,0
+Haryana,Vodafone Essar,22.3,0
+Haryana,Qualcomm,0,10
+Himachal Pradesh,Aircel,11.8,0
+Himachal Pradesh,Bharti Airtel,21.4,0
+Himachal Pradesh,BSNL/ MTNL,17.5,10
+Himachal Pradesh,Idea Cellular,14.2,0
+Himachal Pradesh,Reliance Comm,21.16,0
+Himachal Pradesh,Reliance Jio,10.32,10
+Himachal Pradesh,Stel,5,0
+Himachal Pradesh,Tata DoCoMo,6.9,0
+Himachal Pradesh,Vodafone Essar,5.65,0
+J&K,Aircel,11.2,10
+J&K,Bharti Airtel,13.8,0
+J&K,BSNL/ MTNL,15.5,10
+J&K,Idea Cellular,10,0
+J&K,Reliance Comm,14.36,0
+J&K,Reliance Jio,4.92,10
+J&K,Tata DoCoMo,9.4,0
+J&K,Vodafone Essar,6.9,0
+Karnataka,Aircel,9.4,0
+Karnataka,Bharti Airtel,32.6,10
+Karnataka,BSNL/ MTNL,17.5,10
+Karnataka,Reliance Comm,10,0
+Karnataka,Reliance Jio,5,10
+Karnataka,Sistema Shyam,3.75,0
+Karnataka,Idea Cellular,17.2,0
+Karnataka,Tata DoCoMo,13.15,0
+Karnataka,Vodafone Essar,18,0
+Kerala,Aircel,9.4,0
+Kerala,Bharti Airtel,11.2,0
+Kerala,BSNL/ MTNL,18.75,10
+Kerala,Idea Cellular,29,0
+Kerala,Reliance Comm,9.4,0
+Kerala,Reliance Jio,5,10
+Kerala,Sistema Shyam,3.75,0
+Kerala,Tata DoCoMo,13.15,0
+Kerala,Vodafone Essar,26.85,0
+Kerala,Qualcomm,0,10
+Kolkata,Aircel,9.4,0
+Kolkata,Bharti Airtel,27,10
+Kolkata,BSNL/ MTNL,17.5,10
+Kolkata,Idea Cellular,10,0
+Kolkata,Reliance Comm,12.43,0
+Kolkata,Reliance Jio,10,10
+Kolkata,Sistema Shyam,3.75,0
+Kolkata,Tata DoCoMo,13.15,0
+Kolkata,Vodafone Essar,24.8,0
+Madhya Pradesh,Aircel,4.4,0
+Madhya Pradesh,Bharti Airtel,18.8,0
+Madhya Pradesh,BSNL/ MTNL,17.5,10
+Madhya Pradesh,Idea Cellular,29,0
+Madhya Pradesh,Reliance Comm,16.2,0
+Madhya Pradesh,Reliance Jio,11.32,10
+Madhya Pradesh,Tata DoCoMo,11.9,0
+Madhya Pradesh,Videocon,5,0
+Madhya Pradesh,Vodafone Essar,11.9,0
+Madhya Pradesh,Auguere,0,10
+Maharashtra,Aircel,4.4,0
+Maharashtra,Bharti Airtel,13.2,10
+Maharashtra,BSNL/ MTNL,17.5,10
+Maharashtra,Idea Cellular,32.8,0
+Maharashtra,Reliance Comm,8.15,0
+Maharashtra,Reliance Jio,5,10
+Maharashtra,Tata DoCoMo,16.86,0
+Maharashtra,Telewings,5,0
+Maharashtra,Vodafone Essar,17.45,0
+Mumbai,Aircel,4.4,0
+Mumbai,Bharti Airtel,25.2,0
+Mumbai,BSNL/ MTNL,19.9,10
+Mumbai,Idea Cellular,6.4,0
+Mumbai,Loop,10,0
+Mumbai,Reliance Comm,15,0
+Mumbai,Reliance Jio,11.52,10
+Mumbai,Tata DoCoMo,11.86,0
+Mumbai,Vodafone Essar,34.2,0
+Mumbai,Qualcomm/ Airtel,0,10
+North East,Aircel,11.2,10
+North East,Bharti Airtel,28.6,0
+North East,BSNL/ MTNL,17.5,10
+North East,Idea Cellular,11,0
+North East,Reliance Comm,23.62,0
+North East,Reliance Jio,11.32,10
+North East,Tata DoCoMo,4.4,0
+North East,Vodafone Essar,11.9,0
+Odisha,Aircel,9.4,10
+Odisha,Bharti Airtel,25.4,0
+Odisha,BSNL/ MTNL,17.5,10
+Odisha,Idea Cellular,10,0
+Odisha,Reliance Comm,21.18,0
+Odisha,Reliance Jio,9.92,10
+Odisha,Stel,5,0
+Odisha,Tata DoCoMo,6.9,0
+Odisha,Vodafone Essar,11.9,0
+Punjab,Aircel,9.4,0
+Punjab,Bharti Airtel,27,10
+Punjab,BSNL/ MTNL,13.7,10
+Punjab,HFCL,6.9,0
+Punjab,Idea Cellular,18.6,0
+Punjab,Reliance Comm,16.21,0
+Punjab,Reliance Jio,,10
+Punjab,Idea Cellular (Spice),7.8,0
+Punjab,Tata DoCoMo,13.15,0
+Punjab,Vodafone Essar,8.05,0
+Rajasthan,Aircel,6,0
+Rajasthan,Bharti Airtel,27.4,0
+Rajasthan,BSNL/ MTNL,15.5,10
+Rajasthan,Idea Cellular,6.2,0
+Rajasthan,Reliance Comm,23.15,0
+Rajasthan,Reliance Jio,0,10
+Rajasthan,Sistema Shyam,9.4,0
+Rajasthan,Tata DoCoMo,13.15,0
+Rajasthan,Vodafone Essar,18.4,0
+Rajasthan,Tikona,0,10
+Tamil Nadu,Aircel,22.8,10
+Tamil Nadu,Bharti Airtel,15.6,0
+Tamil Nadu,BSNL/ MTNL,13.2,10
+Tamil Nadu,Idea Cellular,11.4,0
+Tamil Nadu,Reliance Comm,9.4,0
+Tamil Nadu,Reliance Jio,6.8,10
+Tamil Nadu,Sistema Shyam,3.75,0
+Tamil Nadu,Tata DoCoMo,8.15,0
+Tamil Nadu,Vodafone Essar,12.2,0
+Uttar Pradesh E,Aircel,11.2,0
+Uttar Pradesh E,Bharti Airtel,12.2,0
+Uttar Pradesh E,BSNL/ MTNL,17.5,10
+Uttar Pradesh E,Idea Cellular,11.2,0
+Uttar Pradesh E,Reliance Comm,9.4,0
+Uttar Pradesh E,Reliance Jio,6.69,10
+Uttar Pradesh E,Tata DoCoMo,8.15,0
+Uttar Pradesh E,Telewings,6.8,0
+Uttar Pradesh E,Videocon,5,0
+Uttar Pradesh E,Vodafone Essar,25.25,0
+Uttar Pradesh E,Tikona,0,10
+Uttar Pradesh W,Aircel,4.4,0
+Uttar Pradesh W,Bharti Airtel,11.2,0
+Uttar Pradesh W,BSNL/ MTNL,17.5,10
+Uttar Pradesh W,Idea Cellular,20.2,0
+Uttar Pradesh W,Reliance Comm,10.63,0
+Uttar Pradesh W,Reliance Jio,0,10
+Uttar Pradesh W,Sistema Shyam,3.75,0
+Uttar Pradesh W,Tata DoCoMo,13.15,0
+Uttar Pradesh W,Telewings,7,0
+Uttar Pradesh W,Videocon,5,0
+Uttar Pradesh W,Vodafone Essar,13.7,0
+Uttar Pradesh W,Tikona,0,10
+West Bengal,Aircel,10.6,10
+West Bengal,Bharti Airtel,17.8,0
+West Bengal,BSNL/ MTNL,15.5,10
+West Bengal,Idea Cellular,5,0
+West Bengal,Reliance Comm,16.18,0
+West Bengal,Reliance Jio,5.6,10
+West Bengal,Sistema Shyam,3.75,0
+West Bengal,Tata DoCoMo,6.9,0
+West Bengal,Vodafone Essar,15.9,0

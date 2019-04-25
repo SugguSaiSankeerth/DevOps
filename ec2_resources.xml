@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<node name="spectrum_ec2" description="Spectrum Website" tags=""
+  hostname="13.229.102.182" osArch="amd64" osFamily="unix" 
+  osName="Linux" osVersion="4.15.0-1032-aws"
+  username="ubuntu" ssh-authentication="privateKey"
+    ssh-key-storage-path="keys/ec2-key.pem"
+/>
+</project>

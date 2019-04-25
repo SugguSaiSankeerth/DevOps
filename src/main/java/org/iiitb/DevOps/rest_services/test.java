@@ -29,7 +29,6 @@ public class test {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
  public String getTopItems() throws Exception{
-		//System.out.println("Coming into test.java");
 		Connection conn=DatabaseConnection.getConnection();
 		
 	return "Success";

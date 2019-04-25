@@ -1,8 +1,8 @@
 echo -e "\nConfiguring aws tool\n"  
-/home/charan/.local/bin/aws configure < /home/charan/sem8/devops/master/jenkins_config/configFile.txt
+/var/lib/jenkins/aws_jenkins configure < /var/lib/jenkins/configFile.txt
 
 echo -e "\n\nGenerating Resource XML File\n"
-publicIP=$(/home/charan/.local/bin/aws ec2 describe-instances --filters "Name=tag:Name,Values=docker_elk" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
+publicIP=$(/var/lib/jenkins/aws_jenkins ec2 describe-instances --filters "Name=tag:Name,Values=docker_elk" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
 
 echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <project>

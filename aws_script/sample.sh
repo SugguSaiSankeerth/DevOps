@@ -13,6 +13,6 @@ echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
   username=\"ubuntu\" ssh-authentication=\"privateKey\"
     ssh-key-storage-path=\"keys/ec2-key\"
 />
-</project>" > aws_script/docker_elk_resources.xml
+</project>" > /home/charan/sem8/devops/master/jenkins_config/docker_elk_resources.xml
 
 echo "Done."

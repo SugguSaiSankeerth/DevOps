@@ -74,11 +74,14 @@ pipeline
 	{ 
 		always 
 		{ 
-    		sh 'ls'
+			sh 'echo "Pipeline Finished"'
 		}
 
 		success
-		{
+		{	
+			sh 'chmod +x aws_script/sample.sh'
+    		sh 'aws_script/./sample.sh'
+    		sh 'sleep 15'
 			sh 'curl --location --request POST "http://localhost:4440/api/21/job/317d2ec7-799f-4005-8352-cc233aeabb42/run" \
 	  --header "Accept: application/json" \
 	  --header "X-Rundeck-Auth-Token: qIC6nrPc8Z0lObKmzcfA0OmKu8rmP4fI" \

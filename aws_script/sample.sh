@@ -1,10 +1,7 @@
-echo -e "\nConfiguring aws tool\n"  
 /var/lib/jenkins/aws_jenkins configure < /var/lib/jenkins/configFile.txt
-
-echo -e "\n\nGenerating Resource XML File\n"
 publicIP=$(/var/lib/jenkins/aws_jenkins ec2 describe-instances --filters "Name=tag:Name,Values=docker_elk" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
 
-echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <project>
 <node name=\"spectrum_ec2_aws\" description=\"Spectrum Website\" tags=\"\"
   hostname=\"$publicIP\" osArch=\"amd64\" osFamily=\"unix\"
@@ -14,4 +11,4 @@ echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 />
 </project>" > /home/charan/sem8/devops/master/jenkins_config/docker_elk_resources.xml
 
-echo "Done."
+echo "Resource File Generated "

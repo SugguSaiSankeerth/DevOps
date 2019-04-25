@@ -1,6 +1,7 @@
+pip install awscli --upgrade --user
 
 echo -e "\nConfiguring aws tool\n"  
-aws configure < aws_script/configFile.txt
+aws configure < /home/charan/sem8/devops/master/jenkins_config/configFile.txt
 
 echo -e "\n\nGenerating Resource XML File\n"
 publicIP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=docker_elk" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)

@@ -1,4 +1,4 @@
-pip install awscli --upgrade --user
+pip install awscli --upgrade
 
 echo -e "\nConfiguring aws tool\n"  
 aws configure < /home/charan/sem8/devops/master/jenkins_config/configFile.txt

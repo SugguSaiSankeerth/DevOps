@@ -18,9 +18,11 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 
+import org.apache.log4j.Logger;
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
 import org.iiitb.DevOps.dbcon.DatabaseConnection;
+import org.iiitb.DevOps.logs.logs;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -33,6 +35,8 @@ public class Rest_Services {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	 public static String HeatMap(String input,@PathParam("year") String year) throws Exception{
+		logs l=new logs();
+		Logger logger=l.getlogger();
 		Connection conn=DatabaseConnection.getConnection();
 		PreparedStatement preparedStatement = null;		
 		JSONArray heatmap_json_array = new JSONArray();		
@@ -48,6 +52,7 @@ public class Rest_Services {
 				heatmap_json.put("value", rs.getString("value"));
 				heatmap_json.put("year", rs.getString("year"));
 				heatmap_json_array.put(heatmap_json);
+				logger.info("Heatmap Success " + year);
 			}
 			
 		}catch (SQLException e) {

@@ -7,7 +7,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
   hostname=\"$publicIP\" osArch=\"amd64\" osFamily=\"unix\"
   osName=\"Linux\" osVersion=\"4.15.0-1032-aws\"
   username=\"ubuntu\" ssh-authentication=\"privateKey\"
-    ssh-key-storage-path=\"keys/ec2-key\"
+    ssh-key-storage-path=\"keys/ec2_medium\"
 />
 </project>" > /home/charan/sem8/devops/master/jenkins_config/docker_elk_resources.xml
 

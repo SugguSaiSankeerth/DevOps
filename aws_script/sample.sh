@@ -1,5 +1,5 @@
 /var/lib/jenkins/aws_jenkins configure < /var/lib/jenkins/configFile.txt
-publicIP=$(/var/lib/jenkins/aws_jenkins ec2 describe-instances --filters "Name=tag:Name,Values=docker_elk" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
+publicIP=$(/var/lib/jenkins/aws_jenkins ec2 describe-instances --filters "Name=tag:Name,Values=elk_medium" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
 
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <project>

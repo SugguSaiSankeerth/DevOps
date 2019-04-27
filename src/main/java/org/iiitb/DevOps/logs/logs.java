@@ -30,7 +30,6 @@ public class logs {
 		try {
 			logger=getlogger();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -55,7 +54,6 @@ public class logs {
 		
 	}
 	
-//	public st//atic final RollingFileAppender appender =   new RollingFileAppender(new PatternLayout("%-4r [%t] %-5p %c %x - %m%n"), "/Users/sankeerth/Documents/spe/s3/DevOps/src/logs.out", true);
 	
 
 }

@@ -23,17 +23,24 @@ import java.net.URL;
  *         Created 26-Apr-2019.
  */
 public class logs {
+	public static Logger logger;
+	public logs()
+	{
+		
+		try {
+			logger=getlogger();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
 	
 	
-	public Logger getlogger() throws IOException  {
-	//	Logger logger = Logger.getLogger(logs.class);
-		URL url = getClass().getResource("./");
-	//	File file = new File(url.getPath());
-		RollingFileAppender appender =   new RollingFileAppender(new PatternLayout("%d{dd MMM yyyy HH:mm:ss,SSS} %-4r [%t] %-5p %c %x - %m%n"), "/Users/sankeerth/Documents/spe/s3/DevOps/src/main/java/org/iiitb/DevOps/logs/logs.out", true);
-		   File directory = new File("./");
-		   System.out.println("------------------------------>"+directory.getAbsolutePath());
-		   System.out.println("------------------------------>"+url.getPath());
-		//RollingFileAppender appender =   new RollingFileAppender(new PatternLayout("%d{dd MMM yyyy HH:mm:ss,SSS} %-4r [%t] %-5p %c %x - %m%n"), getClass().getResourceAsStream("ListStopWords.txt").getPath(), true);
+	public static Logger getlogger() throws IOException  {
+		RollingFileAppender appender =   new RollingFileAppender(new PatternLayout("%d{dd/MMM/YYYY:HH:mm:ss }  %m%n"), "/tmp/logs.out", true);
+	
 
 		   appender.setMaxBackupIndex(5);
 		     appender.setMaxFileSize("1MB");

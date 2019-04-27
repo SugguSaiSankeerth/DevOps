@@ -8,8 +8,8 @@ services:
        MYSQL_ROOT_PASSWORD: 5555
        MYSQL_DATABASE: spectrumdata
        MYSQL_USER: root
-     expose:
-        - "3306"
+     ports:
+        - "3306:3306"
        
    webapi:
      depends_on:

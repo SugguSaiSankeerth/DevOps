@@ -130,7 +130,7 @@ public class Rest_Services {
 				heatmap_json.put("subregion", rs.getString("subregion"));
 				heatmap_json.put("value", rs.getDouble("value"));
 				heatmap_json_array.put(heatmap_json);
-				logs.logger.info("Treemap Success " );
+				logs.logger.info("Treemap Success 0000" );
 			}
 			
 		}catch (SQLException e) {

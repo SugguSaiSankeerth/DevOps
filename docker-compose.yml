@@ -14,7 +14,9 @@ services:
    webapi:
      depends_on:
        - db
-     image: mvscharan9/spectrum_website:webimg 
+     image: mvscharan9/spectrum_website:webimg
      ports:
        - "8086:8080"
+     volumes:
+       - ./docker-elk/logs/logs.out:/tmp/logs.out
      restart: always

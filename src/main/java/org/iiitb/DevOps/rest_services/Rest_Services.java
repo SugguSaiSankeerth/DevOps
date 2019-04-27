@@ -29,6 +29,7 @@ import org.json.JSONObject;
 
 @Path("Rest_Service")
 public class Rest_Services {
+	public static logs rest_logs=new logs();
 
 	@Path("heatmap/{year}")
 	@GET
@@ -52,10 +53,11 @@ public class Rest_Services {
 				heatmap_json.put("value", rs.getString("value"));
 				heatmap_json.put("year", rs.getString("year"));
 				heatmap_json_array.put(heatmap_json);
-				logger.info("Heatmap Success " + year);
+				logs.logger.info("Heatmap Success " + year);
 			}
 			
 		}catch (SQLException e) {
+			logs.logger.info("Heatmap failure " + year);
 			e.printStackTrace();
 		}
 		return heatmap_json_array.toString();
@@ -92,9 +94,11 @@ public class Rest_Services {
 				}
 				indiamap_json_array.put(Integer.toString(count) , indiamap_json);
 				count++;
+				logs.logger.info("Indiamap Success " + year);
 			}
 			
 		}catch (SQLException e) {
+			logs.logger.info("Indiamap Failure " + year);
 			e.printStackTrace();
 		}
 		return indiamap_json_array.toString();
@@ -126,9 +130,11 @@ public class Rest_Services {
 				heatmap_json.put("subregion", rs.getString("subregion"));
 				heatmap_json.put("value", rs.getDouble("value"));
 				heatmap_json_array.put(heatmap_json);
+				logs.logger.info("Treemap Success " );
 			}
 			
 		}catch (SQLException e) {
+			logs.logger.info("Treemap Failure " );
 			e.printStackTrace();
 		}
 		return heatmap_json_array.toString();
